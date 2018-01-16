@@ -44,10 +44,8 @@ module.exports = (env) => {
           ]
         })
       },
-
       {
-        test: /.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$/,
-        use: "url-loader?limit=100000"
+        test: /\.jpe?g$|\.gif$|\.png$|\.svg$|\.woff$|\.woff2$|\.eot$|\.otf$|\.ttf$|\.wav$|\.mp3$/, loader: "file-loader"
       }
       ]
     },

@@ -6,7 +6,7 @@ exports[`should render Loading Page correctly 1`] = `
 >
   <img
     className="loader__image"
-    src="/images/lg.dual-gear-loading-icon.gif"
+    src="/images/page-load.gif"
   />
 </div>
 `;

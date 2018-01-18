@@ -29,17 +29,27 @@ const renderApp = () => {
 
 ReactDOM.render(<LoadingPage />, document.getElementById('app'));
 
+//Set a timer to run loader gif for 2 seconds
+function myFunction() {
+    setTimeout(function(){ 
+        ReactDOM.render(jsx, document.getElementById('app'));
+       // history.push('/'); 
+    }, 1500);
+};
 
-firebase.auth().onAuthStateChanged((user) => {
-    if (user) {
-        store.dispatch(login(user.uid));
-        renderApp();
-        if (history.location.pathname === '/') {
-            history.push('/dashboard');
-        }
-    } else {
-        store.dispatch(logout());
-        renderApp();
-        history.push('/');
-    }
-});
+myFunction();
+
+
+// firebase.auth().onAuthStateChanged((user) => {
+//     if (user) {
+//         store.dispatch(login(user.uid));
+//         renderApp();
+//         if (history.location.pathname === '/') {
+//             history.push('/dashboard');
+//         }
+//     } else {
+//         store.dispatch(logout());
+//         renderApp();
+//         history.push('/');
+//     }
+// });

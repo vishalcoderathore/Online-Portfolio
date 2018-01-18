@@ -1,13 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render not fond page correctly 1`] = `
-<div>
-  404. Page Not Found. 
-  <Link
-    replace={false}
-    to="/"
+<section
+  className="intro"
+>
+  <div
+    className="content"
   >
-    Go Home
-  </Link>
-</div>
+    <h1>
+      OOPS!
+    </h1>
+    <h2>
+      404, Requested Page not Available
+    </h2>
+  </div>
+  <div
+    className="content"
+  >
+    <a
+      className="btnLanding"
+      onClick={[Function]}
+    >
+      Go to Home
+    </a>
+  </div>
+</section>
 `;

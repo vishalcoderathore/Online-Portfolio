@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import './base/normalize.css';
 @import './css/bootstrap.css';
 @import './base/variables';
 @import './css/font-awesome.min.css';
-// @import './base/settings';
-// @import './base/base';
-// @import './components/box-layout';
+
+@import './base/settings';
+@import './components/loader';
+@import './components/landingPage';
+
+
+
+//@import './components/box-layout';
+//@import './base/base';
 // @import './components/button';
 // @import './components/header';
 // @import './components/content-container';
@@ -13,4 +22,4 @@
 // @import './components/form';
 // @import './components/visibility';
 // @import './components/list';
-// @import './components/loader';
+ 

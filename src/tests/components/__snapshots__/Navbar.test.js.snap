@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Navbar correctly 1`] = `
+<nav
+  className="navbar navbar-expand-sm navbar-dark bg-dark"
+>
+  <div
+    className="container"
+  >
+    <a
+      className="navbar-brand"
+      href="#"
+    >
+      <span>
+        <i
+          aria-hidden="true"
+          className="fa fa-apple"
+        />
+      </span>
+       Navbar
+    </a>
+    <button
+      className="navbar-toggler"
+      data-target="#navbarNavbar"
+      data-toggle="collapse"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      className="collapse navbar-collapse"
+      id="navbarNavbar"
+    >
+      <ul
+        className="navbar-nav ml-auto"
+      >
+        <li
+          className="nav-item active"
+        >
+          <a
+            className="nav-link"
+            href="#"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="#"
+          >
+            Education
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="#"
+          >
+            Work
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="#"
+          >
+            Projects
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="#"
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+`;

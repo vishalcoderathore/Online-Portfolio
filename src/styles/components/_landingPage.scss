@@ -1,0 +1,108 @@
+.intro {
+    align-items: center;
+    background: url('https://static.pexels.com/photos/64776/pexels-photo-64776.jpeg') no-repeat 50% 50%;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.content {
+    h1, h2 {
+        font-family: 'Dosis', sans-serif;
+        color: #F9F3F4;
+        text-shadow: 0px 0px 300px #000;
+        font-size: 400%;
+        font-weight: 100;
+        line-height: 200%;
+    }
+
+}
+
+
+.btnLanding {
+    border: solid $light-grey;
+    border-radius: 9px;
+    font-family: 'Oswald', 'sans-serif';
+    //color: $light-grey;
+    color: $light-grey !important;;
+    font-size: 135%;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+        //text-decoration: none;
+        background-color: $bright-red;
+        border: solid $bright-red;
+        cursor: pointer;
+    }
+}
+
+
+/*--- Media Queries ---*/
+
+@media screen and (max-width: 900px) {
+    .content {
+        padding-bottom: 25%;
+    }
+    .content h1 {
+        font-size: 250%;
+    }
+    .btnLanding {
+        font-size: 110%;
+        padding: 9px 17px;
+        &:hover {
+            text-decoration: none;
+            background-color: $bright-red;
+            color: $light-grey;
+            border: solid $bright-red;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        padding-bottom: 25%;
+    }
+    .content h1 {
+        font-size: 220%;
+    }
+    .btnLanding {
+        font-size: 110%;
+        padding: 7px 15px;
+        &:hover {
+            text-decoration: none;
+            background-color: $bright-red;
+            color: $light-grey;
+            border: solid $bright-red;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        padding-bottom: 25%;
+    }
+    .content h1 {
+        font-size: 250%;
+    }
+    .btnLanding {
+        font-size: 100%;
+        padding: 7px 15px;
+        &:hover {
+            text-decoration: none;
+            background-color: $bright-red;
+            color: $light-grey;
+            border: solid $bright-red;
+        }
+    }
+}

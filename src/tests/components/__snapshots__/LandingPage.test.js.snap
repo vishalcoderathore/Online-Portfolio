@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Landing Page correctly 1`] = `
+<div
+  className="intro"
+>
+  <div
+    className="content"
+  >
+    <h1>
+      hello, hola, namaste
+    </h1>
+  </div>
+  <div
+    className="content"
+  >
+    <a
+      className="btnLanding"
+      onClick={[Function]}
+    >
+      Welcome
+    </a>
+  </div>
+</div>
+`;

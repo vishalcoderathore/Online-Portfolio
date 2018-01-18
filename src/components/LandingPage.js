@@ -3,7 +3,7 @@ import React from 'react';
 class LandingPage extends React.Component {
     
     onWelcome = () => {
-        this.props.history.push('/home');
+        this.props.history.push('/dashboard');
     }
 
     render() {

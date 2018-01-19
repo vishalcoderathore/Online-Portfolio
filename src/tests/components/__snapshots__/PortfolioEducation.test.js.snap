@@ -134,7 +134,9 @@ exports[`should render portfolio dashboard page correctly 1`] = `
                   <th>
                     Name
                   </th>
-                  <th>
+                  <th
+                    className="d-none d-md-block"
+                  >
                     Year
                   </th>
                   <th>
@@ -147,115 +149,100 @@ exports[`should render portfolio dashboard page correctly 1`] = `
                   <td>
                     Google Developer Challenge Scholarship
                   </td>
-                  <td>
+                  <td
+                    className="d-none d-md-block"
+                  >
                     2018
                   </td>
                   <td>
-                    <button
+                    <a
                       className="btn btn-outline-danger"
-                      type="button"
+                      href="https://drive.google.com/open?id=1FCnrDkJTJxWZvRe868I2KeY7Nkz4nyX0"
+                      id="google-dev-challange"
+                      target="_blank"
                     >
-                      <a
-                        className="cert-btn"
-                        href="https://drive.google.com/open?id=1FCnrDkJTJxWZvRe868I2KeY7Nkz4nyX0"
-                        id="google-dev-challange"
-                        target="_blank"
-                      >
-                        View
-                      </a>
-                    </button>
+                      View
+                    </a>
                   </td>
                 </tr>
                 <tr>
                   <td>
                     React Web Developer
                   </td>
-                  <td>
+                  <td
+                    className="d-none d-md-block"
+                  >
                     2018
                   </td>
                   <td>
-                    <button
+                    <a
                       className="btn btn-outline-danger"
-                      type="button"
+                      href="https://drive.google.com/open?id=1AWDaKR90yXo_hxU8XXzjdS2zDAxIkhzL"
+                      id="react"
+                      target="_blank"
                     >
-                      <a
-                        className="cert-btn"
-                        href="https://drive.google.com/open?id=1AWDaKR90yXo_hxU8XXzjdS2zDAxIkhzL"
-                        id="react"
-                        target="_blank"
-                      >
-                        View
-                      </a>
-                    </button>
+                      View
+                    </a>
                   </td>
                 </tr>
                 <tr>
                   <td>
                     Bootstrap 4 Course
                   </td>
-                  <td>
+                  <td
+                    className="d-none d-md-block"
+                  >
                     2017
                   </td>
                   <td>
-                    <button
+                    <a
                       className="btn btn-outline-danger"
-                      type="button"
+                      href="https://drive.google.com/open?id=17C1JdIvJBhO4y9IbWgVgYw5WIONHzrfi"
+                      id="bootstrap"
+                      target="_blank"
                     >
-                      <a
-                        className="cert-btn"
-                        href="https://drive.google.com/open?id=17C1JdIvJBhO4y9IbWgVgYw5WIONHzrfi"
-                        id="bootstrap"
-                        target="_blank"
-                      >
-                        View
-                      </a>
-                    </button>
+                      View
+                    </a>
                   </td>
                 </tr>
                 <tr>
                   <td>
                     Command Line Essentials
                   </td>
-                  <td>
+                  <td
+                    className="d-none d-md-block"
+                  >
                     2017
                   </td>
                   <td>
-                    <button
+                    <a
                       className="btn btn-outline-danger"
-                      type="button"
+                      href="https://drive.google.com/open?id=1ql0Ra_fhSx1_YwGa-rQ1vsk2BZG1QONo"
+                      id="git"
+                      target="_blank"
                     >
-                      <a
-                        className="cert-btn"
-                        href="https://drive.google.com/open?id=1ql0Ra_fhSx1_YwGa-rQ1vsk2BZG1QONo"
-                        id="git"
-                        target="_blank"
-                      >
-                        View
-                      </a>
-                    </button>
+                      View
+                    </a>
                   </td>
                 </tr>
                 <tr>
                   <td>
                     Oracle Certified Professional, Java SE 6 Programmer
                   </td>
-                  <td>
+                  <td
+                    className="d-none d-md-block"
+                  >
                     2015
                   </td>
                   <td>
-                    <button
+                    <a
                       className="btn btn-outline-danger"
-                      type="button"
+                      href="https://drive.google.com/open?id=1ZG4ZqjHuqENPAYBy5C8Y0b8EoozcA87c"
+                      id="java"
+                      target="_blank"
                     >
-                      <a
-                        className="cert-btn"
-                        href="https://drive.google.com/open?id=1ZG4ZqjHuqENPAYBy5C8Y0b8EoozcA87c"
-                        id="java"
-                        target="_blank"
-                      >
-                         View 
-                      </a>
-                    </button>
+                       View 
+                    </a>
                   </td>
                 </tr>
               </tbody>

@@ -65,21 +65,21 @@ const PortfolioEducation = () => (
                                     <tr className="education--certs">
 
                                         <th>Name</th>
-                                        <th>Year</th>
+                                        <th className="d-none d-md-block">Year</th>
                                         <th>Access Link</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>Google Developer Challenge Scholarship</td>
-                                        <td>2018</td>
+                                        <td className="d-none d-md-block">2018</td>
                                         <td><a id="google-dev-challange" target="_blank" href="https://drive.google.com/open?id=1FCnrDkJTJxWZvRe868I2KeY7Nkz4nyX0" className="btn btn-outline-danger">View</a>
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td>React Web Developer</td>
-                                        <td>2018</td>
+                                        <td className="d-none d-md-block">2018</td>
                                         <td>
                                             <a id="react" target="_blank" href="https://drive.google.com/open?id=1AWDaKR90yXo_hxU8XXzjdS2zDAxIkhzL" className="btn btn-outline-danger">View</a>
                                         </td>
@@ -87,7 +87,7 @@ const PortfolioEducation = () => (
 
                                     <tr>
                                         <td>Bootstrap 4 Course</td>
-                                        <td>2017</td>
+                                        <td className="d-none d-md-block">2017</td>
                                         <td>
                                             <a id="bootstrap" target="_blank" href="https://drive.google.com/open?id=17C1JdIvJBhO4y9IbWgVgYw5WIONHzrfi" className="btn btn-outline-danger">View</a>
                                         </td>
@@ -95,7 +95,7 @@ const PortfolioEducation = () => (
 
                                     <tr>
                                         <td>Command Line Essentials</td>
-                                        <td>2017</td>
+                                        <td className="d-none d-md-block">2017</td>
                                         <td>
                                             <a id="git" target="_blank" href="https://drive.google.com/open?id=1ql0Ra_fhSx1_YwGa-rQ1vsk2BZG1QONo" className="btn btn-outline-danger">View</a>
                                         </td>
@@ -103,7 +103,7 @@ const PortfolioEducation = () => (
 
                                     <tr>
                                         <td>Oracle Certified Professional, Java SE 6 Programmer</td>
-                                        <td>2015</td>
+                                        <td className="d-none d-md-block">2015</td>
                                         <td>
                                             <a id="java" target="_blank" href="https://drive.google.com/open?id=1ZG4ZqjHuqENPAYBy5C8Y0b8EoozcA87c" className="btn btn-outline-danger"> View </a>
                                         </td>

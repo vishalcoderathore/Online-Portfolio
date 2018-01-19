@@ -35,6 +35,7 @@ exports[`should render Navbar correctly 1`] = `
     >
       <ul
         className="navbar-nav ml-auto"
+        onClick={[Function]}
       >
         <li
           className="nav-item"
@@ -64,7 +65,7 @@ exports[`should render Navbar correctly 1`] = `
         >
           <a
             className="nav-link"
-            href="#"
+            href="myWork"
           >
             Work
           </a>
@@ -75,7 +76,7 @@ exports[`should render Navbar correctly 1`] = `
         >
           <a
             className="nav-link"
-            href="#"
+            href="myProjects"
           >
             Projects
           </a>
@@ -86,7 +87,7 @@ exports[`should render Navbar correctly 1`] = `
         >
           <a
             className="nav-link"
-            href="#"
+            href="myContact"
           >
             Contact
           </a>

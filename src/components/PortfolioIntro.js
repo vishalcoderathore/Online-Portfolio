@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PortfolioIntro = () => (
-    <section id="about" className="py-5 text-center bg-light" id="home">
+    <section id="about" className="py-5 text-center bg-light" id="aboutMe">
         <div className="container">
             <div className="row">
                 <div className="col">

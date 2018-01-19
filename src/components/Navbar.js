@@ -16,10 +16,10 @@ class Header extends React.Component {
                     <div className="collapse navbar-collapse" id="navbarNavbar">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item active" id="Home">
-                                <a href="#home" onClick={this.activeClass} className="nav-link">Home</a>
+                                <a href="#aboutMe" onClick={this.activeClass} className="nav-link">Home</a>
                             </li>
                             <li className="nav-item" id="Education">
-                                <a href="#" onClick={this.activeClass} className="nav-link">Education</a>
+                                <a href="#edu" onClick={this.activeClass} className="nav-link">Education</a>
                             </li>
                             <li className="nav-item" id="Work">
                                 <a href="#" onClick={this.activeClass} className="nav-link">Work</a>

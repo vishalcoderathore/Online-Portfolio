@@ -73,36 +73,31 @@ const PortfolioEducation = () => (
                                     <tr>
                                         <td>Google Developer Challenge Scholarship</td>
                                         <td>2018</td>
-                                        <td><button type="button" className="btn btn-outline-danger">
-                                            <a id="google-dev-challange" target="_blank" href="https://drive.google.com/open?id=1FCnrDkJTJxWZvRe868I2KeY7Nkz4nyX0" className="cert-btn">View</a>
-                                        </button>
+                                        <td><a id="google-dev-challange" target="_blank" href="https://drive.google.com/open?id=1FCnrDkJTJxWZvRe868I2KeY7Nkz4nyX0" className="btn btn-outline-danger">View</a>
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td>React Web Developer</td>
                                         <td>2018</td>
-                                        <td><button type="button" className="btn btn-outline-danger">
-                                            <a id="react" target="_blank" href="https://drive.google.com/open?id=1AWDaKR90yXo_hxU8XXzjdS2zDAxIkhzL" className="cert-btn">View</a>
-                                        </button>
+                                        <td>
+                                            <a id="react" target="_blank" href="https://drive.google.com/open?id=1AWDaKR90yXo_hxU8XXzjdS2zDAxIkhzL" className="btn btn-outline-danger">View</a>
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td>Bootstrap 4 Course</td>
                                         <td>2017</td>
-                                        <td><button type="button" className="btn btn-outline-danger">
-                                            <a id="bootstrap" target="_blank" href="https://drive.google.com/open?id=17C1JdIvJBhO4y9IbWgVgYw5WIONHzrfi" className="cert-btn">View</a>
-                                        </button>
+                                        <td>
+                                            <a id="bootstrap" target="_blank" href="https://drive.google.com/open?id=17C1JdIvJBhO4y9IbWgVgYw5WIONHzrfi" className="btn btn-outline-danger">View</a>
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td>Command Line Essentials</td>
                                         <td>2017</td>
-                                        <td><button type="button" className="btn btn-outline-danger">
-                                            <a id="git" target="_blank" href="https://drive.google.com/open?id=1ql0Ra_fhSx1_YwGa-rQ1vsk2BZG1QONo" className="cert-btn">View</a>
-                                        </button>
+                                        <td>
+                                            <a id="git" target="_blank" href="https://drive.google.com/open?id=1ql0Ra_fhSx1_YwGa-rQ1vsk2BZG1QONo" className="btn btn-outline-danger">View</a>
                                         </td>
                                     </tr>
 
@@ -110,9 +105,7 @@ const PortfolioEducation = () => (
                                         <td>Oracle Certified Professional, Java SE 6 Programmer</td>
                                         <td>2015</td>
                                         <td>
-                                            <button type="button" className="btn btn-outline-danger">
-                                                <a id="java" target="_blank" href="https://drive.google.com/open?id=1ZG4ZqjHuqENPAYBy5C8Y0b8EoozcA87c" className="cert-btn"> View </a>
-                                            </button>
+                                            <a id="java" target="_blank" href="https://drive.google.com/open?id=1ZG4ZqjHuqENPAYBy5C8Y0b8EoozcA87c" className="btn btn-outline-danger"> View </a>
                                         </td>
                                     </tr>
                                 </tbody>

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded:100,200,300,400,500,600,700,800,900');
 @import './base/normalize.css';
 @import './css/bootstrap.css';
 @import './base/variables';
@@ -8,7 +9,9 @@
 @import './base/settings';
 @import './components/loader';
 @import './components/landingPage';
-@import './components/_navbar';
+@import './components/navbar';
+@import './components/intro';
+
 
 
 

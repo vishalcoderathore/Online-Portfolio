@@ -2,7 +2,7 @@
 
 exports[`should render Navbar correctly 1`] = `
 <nav
-  className="navbar navbar-expand-sm navbar-dark bg-dark"
+  className="navbar navbar-expand-sm navbar-dark bg-dark py-4"
 >
   <div
     className="container"
@@ -14,10 +14,10 @@ exports[`should render Navbar correctly 1`] = `
       <span>
         <i
           aria-hidden="true"
-          className="fa fa-apple"
+          className="fa fa-user-o"
         />
       </span>
-       Navbar
+       Portfolio
     </a>
     <button
       className="navbar-toggler"
@@ -37,50 +37,60 @@ exports[`should render Navbar correctly 1`] = `
       >
         <li
           className="nav-item active"
+          id="Home"
         >
           <a
             className="nav-link"
-            href="#"
+            href="#home"
+            onClick={[Function]}
           >
             Home
           </a>
         </li>
         <li
           className="nav-item"
+          id="Education"
         >
           <a
             className="nav-link"
             href="#"
+            onClick={[Function]}
           >
             Education
           </a>
         </li>
         <li
           className="nav-item"
+          id="Work"
         >
           <a
             className="nav-link"
             href="#"
+            onClick={[Function]}
           >
             Work
           </a>
         </li>
         <li
           className="nav-item"
+          id="Projects"
         >
           <a
             className="nav-link"
             href="#"
+            onClick={[Function]}
           >
             Projects
           </a>
         </li>
         <li
           className="nav-item"
+          id="Contact"
         >
           <a
             className="nav-link"
             href="#"
+            onClick={[Function]}
           >
             Contact
           </a>

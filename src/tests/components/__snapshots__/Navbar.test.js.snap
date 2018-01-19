@@ -3,7 +3,7 @@
 exports[`should render Navbar correctly 1`] = `
 <nav
   className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top py-4"
-  id="mainNavbar"
+  id="navbar"
 >
   <div
     className="container"
@@ -37,13 +37,12 @@ exports[`should render Navbar correctly 1`] = `
         className="navbar-nav ml-auto"
       >
         <li
-          className="nav-item active"
+          className="nav-item"
           id="Home"
         >
           <a
-            className="nav-link"
+            className="nav-link active"
             href="#aboutMe"
-            onClick={[Function]}
           >
             Home
           </a>
@@ -55,7 +54,6 @@ exports[`should render Navbar correctly 1`] = `
           <a
             className="nav-link"
             href="#edu"
-            onClick={[Function]}
           >
             Education
           </a>
@@ -67,7 +65,6 @@ exports[`should render Navbar correctly 1`] = `
           <a
             className="nav-link"
             href="#"
-            onClick={[Function]}
           >
             Work
           </a>
@@ -79,7 +76,6 @@ exports[`should render Navbar correctly 1`] = `
           <a
             className="nav-link"
             href="#"
-            onClick={[Function]}
           >
             Projects
           </a>
@@ -91,7 +87,6 @@ exports[`should render Navbar correctly 1`] = `
           <a
             className="nav-link"
             href="#"
-            onClick={[Function]}
           >
             Contact
           </a>

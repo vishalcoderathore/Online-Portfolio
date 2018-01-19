@@ -10,9 +10,13 @@
     padding-right: 1em !important;
 }
 
-.navbar .nav-item.active {
-    border-left: $bright-red 3px solid;
+// .navbar .nav-item.active {
+//     border-left: $bright-red 3px solid;
 
+// }
+
+nav li a.active {
+    border-left: $bright-red 3px solid;
 }
 
 a{

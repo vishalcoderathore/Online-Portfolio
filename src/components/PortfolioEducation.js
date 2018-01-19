@@ -6,7 +6,7 @@ const PortfolioEducation = () => (
             <div className="row">
                 <div className="col">
                     <div className="info-header">
-                        <h1 className="intro--header pb-3 pt-5 ">
+                        <h1 className="intro--header pb-3 pt-5" data-aos="fade-down">
                             EDUCATION
                     </h1>
                     </div>

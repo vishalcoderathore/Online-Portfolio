@@ -18,7 +18,8 @@ exports[`should render portfolio dashboard page correctly 1`] = `
           className="info-header"
         >
           <h1
-            className="animated fadeInDown intro--header pb-3 pt-5 "
+            className="intro--header pb-3 pt-5 "
+            data-aos="fade-down"
           >
             ABOUT ME
           </h1>

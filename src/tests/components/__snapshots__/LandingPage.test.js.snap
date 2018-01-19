@@ -7,15 +7,17 @@ exports[`should render Landing Page correctly 1`] = `
   <div
     className="content"
   >
-    <h1>
+    <h1
+      className="animated bounceInLeft"
+    >
       hello, hola, namaste
     </h1>
   </div>
   <div
-    className="content"
+    className="content animated bounceInRight"
   >
     <a
-      className="btnLanding"
+      className="btnLanding "
       onClick={[Function]}
     >
       Welcome

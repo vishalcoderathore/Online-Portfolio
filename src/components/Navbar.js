@@ -8,7 +8,6 @@ class Header extends React.Component {
         // get the target position
         var targetPos = typeof $(href).offset() !== "undefined" ? $(href).offset().top : 0;
 
-        console.log(targetPos);
         // scroll to target
         $('html, body').animate({
             scrollTop: targetPos

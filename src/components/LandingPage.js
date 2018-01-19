@@ -10,10 +10,10 @@ class LandingPage extends React.Component {
         return (
             <div className="intro">
                 <div className="content">
-                    <h1>hello, hola, namaste</h1>
+                    <h1 className="animated bounceInLeft">hello, hola, namaste</h1>
                 </div>
-                <div className="content">
-                    <a className="btnLanding" onClick={this.onWelcome}>Welcome</a>
+                <div className="content animated bounceInRight">
+                    <a className="btnLanding " onClick={this.onWelcome}>Welcome</a>
                 </div>
             </div >
         );

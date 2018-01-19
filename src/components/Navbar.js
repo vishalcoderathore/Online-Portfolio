@@ -8,7 +8,7 @@ class Header extends React.Component {
     };
     render() {
         return (
-            <nav className="navbar navbar-expand-sm navbar-dark bg-dark py-4" >
+            <nav id="mainNavbar" className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top py-4" >
                 <div className="container">
                     <a href="#" className="navbar-brand"><span><i className="fa fa-user-o" aria-hidden="true"></i></span> Portfolio</a>
                     <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarNavbar"><span className="navbar-toggler-icon"></span>

@@ -1,0 +1,24 @@
+.education {
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.education--degree {
+    @extend .education;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.education--certs {
+    @extend .education;
+    font-weight: 700;
+}
+
+.cert-btn {
+    color: inherit;
+    &:hover{
+        color: white;
+        text-decoration: none;
+    }
+}

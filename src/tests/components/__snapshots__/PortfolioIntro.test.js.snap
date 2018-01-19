@@ -3,7 +3,7 @@
 exports[`should render portfolio dashboard page correctly 1`] = `
 <section
   className="py-5 text-center bg-light"
-  id="home"
+  id="aboutMe"
 >
   <div
     className="container"
@@ -15,10 +15,10 @@ exports[`should render portfolio dashboard page correctly 1`] = `
         className="col"
       >
         <div
-          className="info-header mb-5"
+          className="info-header"
         >
           <h1
-            className="intro--header pb-4"
+            className="intro--header pb-3 pt-5 "
           >
             ABOUT ME
           </h1>
@@ -29,7 +29,7 @@ exports[`should render portfolio dashboard page correctly 1`] = `
       className="row"
     >
       <div
-        className="col-md-6 mb-5 px-2"
+        className="col-md-6 pt-5 px-2"
       >
         <p
           className="lead pb-3 intro--desc"
@@ -38,7 +38,7 @@ exports[`should render portfolio dashboard page correctly 1`] = `
         </p>
       </div>
       <div
-        className="col-md-6 mb-5 px-2"
+        className="col-md-6 pt-5 px-2"
       >
         <div
           className="container"

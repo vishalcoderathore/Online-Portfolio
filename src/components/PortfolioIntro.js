@@ -1,24 +1,24 @@
 import React from 'react';
 
 const PortfolioIntro = () => (
-    <section id="about" className="py-5 text-center bg-light" id="aboutMe">
+    <section className="py-5 text-center bg-light" id="aboutMe">
         <div className="container">
             <div className="row">
                 <div className="col">
-                    <div className="info-header mb-5">
-                        <h1 className="intro--header pb-4">
+                    <div className="info-header">
+                        <h1 className="intro--header pb-3 pt-5 ">
                             ABOUT ME
-                        </h1>
+                    </h1>
                     </div>
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-6 mb-5 px-2">
+                <div className="col-md-6 pt-5 px-2">
                     <p className="lead pb-3 intro--desc">
                         Hi! My name is Vishal Singh Rathore and I am a Software Developer located in Minneapolis, Minnesota. I've always been drawn to the overlap between design, develop and testing. My skills are broad: from front end to back end. I have worked with a variety of technologies including Java, PL/SQL, HTML, CSS, JavaScript and Jquery.
-                    </p>
+                </p>
                 </div>
-                <div className="col-md-6 mb-5 px-2">
+                <div className="col-md-6 pt-5 px-2">
                     <div className="container">
                         <div className="row">
                             <div className="col">

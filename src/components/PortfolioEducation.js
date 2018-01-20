@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PortfolioEducation = () => (
-    <section className="py-5 text-center bg-light" id="edu">
+    <section className="py-5 text-center bg-faded" id="edu">
         <div className="container">
             <div className="row">
                 <div className="col">
@@ -15,7 +15,7 @@ const PortfolioEducation = () => (
             <div className="row">
                 <div className="col-md-6 pt-5 px-2">
                     <div className="card education">
-                        <div className="card-body">
+                        <div className="card-body bg-light">
                             <h4 className="card-title">Master of Science</h4>
                             <small className="text-muted">2017 - Current</small>
                             <hr />
@@ -35,7 +35,7 @@ const PortfolioEducation = () => (
                 </div>
                 <div className="col-md-6 pt-5 px-2">
                     <div className="card education">
-                        <div className="card-body">
+                        <div className="card-body bg-light">
                             <h4 className="card-title">Bachelor of Science</h4>
                             <small className="text-muted">2015</small>
                             <hr />
@@ -57,7 +57,7 @@ const PortfolioEducation = () => (
             <div className="row">
                 <div className="col mb-5 pt-5 px-2">
                     <div className="card education">
-                        <div className="card-body">
+                        <div className="card-body bg-light">
                             <h4 className="card-title">Achievements | Certifications</h4>
 
                             <table className="table table-hover mb-0">

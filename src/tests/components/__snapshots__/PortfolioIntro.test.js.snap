@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render portfolio dashboard page correctly 1`] = `
+exports[`should render portfolio intro page correctly 1`] = `
 <section
   className="py-5 text-center bg-light"
   id="aboutMe"

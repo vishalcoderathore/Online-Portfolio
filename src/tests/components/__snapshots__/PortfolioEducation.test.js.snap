@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render portfolio dashboard page correctly 1`] = `
+exports[`should render portfolio education page correctly 1`] = `
 <section
-  className="py-5 text-center bg-light"
+  className="py-5 text-center bg-faded"
   id="edu"
 >
   <div
@@ -36,7 +36,7 @@ exports[`should render portfolio dashboard page correctly 1`] = `
           className="card education"
         >
           <div
-            className="card-body"
+            className="card-body bg-light"
           >
             <h4
               className="card-title"
@@ -75,7 +75,7 @@ exports[`should render portfolio dashboard page correctly 1`] = `
           className="card education"
         >
           <div
-            className="card-body"
+            className="card-body bg-light"
           >
             <h4
               className="card-title"
@@ -118,7 +118,7 @@ exports[`should render portfolio dashboard page correctly 1`] = `
           className="card education"
         >
           <div
-            className="card-body"
+            className="card-body bg-light"
           >
             <h4
               className="card-title"

@@ -5,6 +5,7 @@ exports[`should render portfolio dashboard page correctly 1`] = `
   <Header />
   <PortfolioIntro />
   <PortfolioEducation />
+  <PortfolioWork />
   <PortfolioFooter />
 </div>
 `;

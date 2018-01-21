@@ -6,7 +6,7 @@ const PortfolioIntro = () => (
             <div className="row">
                 <div className="col">
                     <div className="info-header">
-                        <h1 className="intro--header pb-3 pt-5 " data-aos="fade-down">
+                        <h1 className="intro--header pb-3 pt-5 " data-aos="fade-down" data-aos-duration="800">
                             ABOUT ME
                     </h1>
                     </div>

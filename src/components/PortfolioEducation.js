@@ -6,7 +6,7 @@ const PortfolioEducation = () => (
             <div className="row">
                 <div className="col">
                     <div className="info-header">
-                        <h1 className="intro--header pb-3 pt-5" data-aos="fade-down">
+                        <h1 className="intro--header pb-3 pt-5" data-aos="fade-down" data-aos-duration="800">
                             EDUCATION
                     </h1>
                     </div>
@@ -22,7 +22,6 @@ const PortfolioEducation = () => (
                             <p className="card-text education--degree">
                                 M.S. in Software Engineering
                             </p>
-                            <p></p>
                             <p className="card-text">
                                 University of Minnesota, Minneapolis, MN
                             </p>
@@ -41,11 +40,10 @@ const PortfolioEducation = () => (
                             <hr />
                             <p className="card-text education--degree">
                                 B.S. in Computer Engineering
-                    </p>
-                            <p></p>
+                            </p>
                             <p className="card-text">
                                 North Dakota State University, Fargo, ND
-                    </p>
+                            </p>
                             <p className="card-text">
                                 GPA: 3.0
                     </p>

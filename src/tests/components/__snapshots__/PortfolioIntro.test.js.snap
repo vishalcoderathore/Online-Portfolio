@@ -20,6 +20,7 @@ exports[`should render portfolio intro page correctly 1`] = `
           <h1
             className="intro--header pb-3 pt-5 "
             data-aos="fade-down"
+            data-aos-duration="800"
           >
             ABOUT ME
           </h1>

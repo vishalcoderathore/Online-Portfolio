@@ -76,7 +76,7 @@ exports[`should render Navbar correctly 1`] = `
         >
           <a
             className="nav-link"
-            href="myProjects"
+            href="#myProjects"
           >
             Projects
           </a>

@@ -5,9 +5,6 @@ import LandingPage from '../components/LandingPage';
 import PortfolioDashboard from '../components/PortfolioDashboard';
 import PageNotFound from '../components/PageNotFound';
 
-import PrivateRoute from './PrivateRoute';
-import PublicRoute from './PublicRoute';
-
 export const history = createHistory();
 
 const AppRouter = () => (

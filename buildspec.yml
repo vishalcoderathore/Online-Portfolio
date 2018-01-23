@@ -11,15 +11,4 @@ phases:
 
 artifacts:
   files:
-    - .babelrc
-    - .env.development
-    - .env.test
-    - gulpfile.js
-    - jest.config.json
-    - package.json
-    - readme.md
-    - server.js
-    - webpack.config.js
-    - yarn.lock
     - public/**/*
-    - src/**/*

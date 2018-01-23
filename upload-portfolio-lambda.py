@@ -16,7 +16,8 @@ def lambda_handler(event, context):
     with zipfile.ZipFile(resume_zip) as myzip:
         for nm in myzip.namelist():
             obj = myzip.open(nm)
-            resume_bucket.upload_fileobj(obj, nm)
+            resume_bucket.upload_fileobj(obj, nm,
+                ExtraArgs={'ContentType': mimetypes.guess_type(nm)[0]})
             resume_bucket.Object(nm).Acl().put(ACL='public-read')
 
     print "Job done!"

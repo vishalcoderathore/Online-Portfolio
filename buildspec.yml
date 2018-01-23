@@ -21,5 +21,5 @@ artifacts:
     - server.js
     - webpack.config.js
     - yarn.lock
-    - public/*
-    - src/*
+    - public/**/*
+    - src/**/*

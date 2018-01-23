@@ -5,6 +5,7 @@ import PortfolioEducation from './PortfolioEducation';
 import PortfolioFooter from './PortfolioFooter';
 import PortfolioProjects from './PortfolioProjects';
 import PortfolioWork from './PortfolioWork';
+import PortfolioContactForm from './PortfolioContactForm';
 import AOS from 'aos';
 
 class PortfolioDashboard extends React.Component {
@@ -21,6 +22,7 @@ class PortfolioDashboard extends React.Component {
                 <PortfolioEducation />
                 <PortfolioWork />
                 <PortfolioProjects />
+                <PortfolioContactForm />
                 <PortfolioFooter />
             </div>
         );

@@ -87,7 +87,7 @@ exports[`should render Navbar correctly 1`] = `
         >
           <a
             className="nav-link"
-            href="myContact"
+            href="#myContact"
           >
             Contact
           </a>

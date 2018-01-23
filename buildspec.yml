@@ -1,0 +1,25 @@
+version: 0.1
+
+phases:
+  pre_build:
+    commands:
+      - npm install
+      - npm test
+  build:
+    commands:
+      - npm run build:prod
+
+artifacts:
+  files:
+    -.babelrc
+    -.env.development
+    -.env.test
+    -gulpfile.js
+    -jest.config.json
+    -package.json
+    -readme.md
+    -server.js
+    -webpack.config.js
+    -yarn.lock
+    -public/*
+    -src/*

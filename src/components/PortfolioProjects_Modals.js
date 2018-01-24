@@ -56,7 +56,7 @@ const PortfolioProjects_Modals = () => (
 
                             <div className="col-9"> <p className="text-muted">Site showcasing a product.</p></div>
                             <div className="col-3">
-                                <a href="http://apple-product.s3-website-us-east-1.amazonaws.com/index.html" target="_blank" className="btn btn-outline-info">Demo</a>
+                                <a href="http://product.vishalrathore.info/" target="_blank" className="btn btn-outline-info">Demo</a>
                             </div>
                         </div>
                         <p>Multi page sample website showcasing mobile phones and sample plans.</p>

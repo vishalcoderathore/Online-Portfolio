@@ -9,15 +9,27 @@ def lambda_handler(event, context):
     sns=boto3.resource('sns')
     topic = sns.Topic('arn:aws:sns:us-east-1:021094376121:deployPortfolioTopic')
 
+    location = {
+        "bucketName" : 'portfoliobuild.vishalrathore.info',
+        "objectKey" : 'portfolioBuild.zip'
+    }
+
     try:
+
+        job = event.get("CodePipeline.job")
+        if artifact in job["data"]["inputArtifacts"]:
+            if arttifact["name"] == "MyAppBuild":
+                location = artifact["location"]["s3Location"]
+
+        print "Building portfolio from " + str(location)
 
         s3 = boto3.resource('s3', config=Config(signature_version='s3v4'))
 
         resume_bucket = s3.Bucket('portfolio.vishalrathore.info')
-        build_bucket = s3.Bucket('portfoliobuild.vishalrathore.info')
+        build_bucket = s3.Bucket(location["bucketName"])
 
         resume_zip = StringIO.StringIO()
-        build_bucket.download_fileobj('portfolioBuild.zip', resume_zip)
+        build_bucket.download_fileobj(location["objectKey"], resume_zip)
 
         with zipfile.ZipFile(resume_zip) as myzip:
             for nm in myzip.namelist():
@@ -49,6 +61,9 @@ def lambda_handler(event, context):
                         
         print "Job done!"
         topic.publish(Subject="Portfolio Deployment Success", Message="Congratulations! Your portfolio was deployed sucessfully!")
+        if job:
+            codepipeline = boto3.client('codepipeline')
+            codepipeline.put_job_success_result(jobId=job["id"])
     
     except :
         topic.publish(Subject="Portfolio Deployment Failure", Message="Error! Seems like something went wrong. Your portfolio was not deployed and the process failed.")

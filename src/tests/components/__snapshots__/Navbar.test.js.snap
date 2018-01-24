@@ -10,7 +10,8 @@ exports[`should render Navbar correctly 1`] = `
   >
     <a
       className="navbar-brand"
-      href="#"
+      href="#aboutMe"
+      onClick={[Function]}
     >
       <span>
         <i
@@ -18,12 +19,13 @@ exports[`should render Navbar correctly 1`] = `
           className="fa fa-user-o"
         />
       </span>
-       Portfolio
+       Vishal Singh Rathore
     </a>
     <button
       className="navbar-toggler"
       data-target="#navbarNavbar"
       data-toggle="collapse"
+      id="collapseButton"
     >
       <span
         className="navbar-toggler-icon"
@@ -44,6 +46,7 @@ exports[`should render Navbar correctly 1`] = `
           <a
             className="nav-link active"
             href="#aboutMe"
+            onClick={[Function]}
           >
             Home
           </a>
@@ -55,6 +58,7 @@ exports[`should render Navbar correctly 1`] = `
           <a
             className="nav-link"
             href="#edu"
+            onClick={[Function]}
           >
             Education
           </a>
@@ -66,6 +70,7 @@ exports[`should render Navbar correctly 1`] = `
           <a
             className="nav-link"
             href="#myWork"
+            onClick={[Function]}
           >
             Work
           </a>
@@ -77,6 +82,7 @@ exports[`should render Navbar correctly 1`] = `
           <a
             className="nav-link"
             href="#myProjects"
+            onClick={[Function]}
           >
             Projects
           </a>
@@ -88,6 +94,7 @@ exports[`should render Navbar correctly 1`] = `
           <a
             className="nav-link"
             href="#myContact"
+            onClick={[Function]}
           >
             Contact
           </a>

@@ -8,7 +8,7 @@ exports[`should render Loading Page correctly 1`] = `
     Success
   </h5>
   <p>
-    Your message has ben delivered!
+    Your message has been delivered!
   </p>
 </div>
 `;

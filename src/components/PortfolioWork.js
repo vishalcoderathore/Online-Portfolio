@@ -17,7 +17,7 @@ const PortfolioWork = () => (
                     <div className="card education">
                         <div className="card-body bg-faded">
                             <h4 className="card-title">Sherwin Williams - <em>Full Stack Developer</em></h4>
-                            <small className="text-muted">08-2016 - 08/2017 - Cleveland, OH <em>(Contract Position)</em></small>
+                            <small className="text-muted">08-2016 - 08-2017 - Cleveland, OH <em>(Contract Position)</em></small>
                             <hr />
                             <div className="card-text text-left">
                                 <p>
@@ -67,7 +67,7 @@ const PortfolioWork = () => (
                     <div className="card education">
                         <div className="card-body bg-faded">
                             <h4 className="card-title">Wells Fargo - <em>Java Developer</em></h4>
-                            <small className="text-muted">07-2015 - 07/2016 - Philadelphia, PA <em>(Contract Position)</em></small>
+                            <small className="text-muted">07-2015 - 07-2016 - Philadelphia, PA <em>(Contract Position)</em></small>
                             <hr />
                             <div className="card-text text-left">
                                 <p>

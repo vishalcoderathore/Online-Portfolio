@@ -7,7 +7,7 @@ class SuccessPopup extends React.Component {
                 <h5>
                     Success
                 </h5>
-                <p>Your message has ben delivered!</p>
+                <p>Your message has been delivered!</p>
             </div>
         )
     }

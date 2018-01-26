@@ -4,6 +4,7 @@ import GithubList from './GithubList';
 import LPAWS from '../aws/awsEmail';
 import ErrorPopup from './ErrorPopup';
 import SuccessPopup from './SuccessPopup';
+import MapWithAMakredInfoWindow from './GoogleMaps';
 
 class PortfolioContactForm extends React.Component {
 
@@ -184,12 +185,19 @@ class PortfolioContactForm extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="row mb-4">
-                        <div className="container-fluid">
-                            <div className="" id="map"></div>
+                    
+                        <div className="row mb-4">
+                            <MapWithAMakredInfoWindow
+                                googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgM64gpvjKwX3JhihSyRs2pX9N8npMFzI&v=3.exp&libraries=geometry,drawing,places"
+                                loadingElement={<div ></div>}
+                                containerElement={<div className="maps--containerElement"></div>}
+                                mapElement={<div className="maps--mapElement"></div>}
+                            />
                         </div>
-                    </div>
+                   
                 </div>
+
+
             </section>
         );
     };

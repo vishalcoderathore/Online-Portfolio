@@ -108,7 +108,7 @@ exports[`should render error message on invalid form submit 1`] = `
                   >
                     <input
                       className="form-control"
-                      name="fName"
+                      id="fName"
                       onChange={[Function]}
                       placeholder="First Name*"
                       type="text"
@@ -197,14 +197,20 @@ exports[`should render error message on invalid form submit 1`] = `
     <div
       className="row mb-4"
     >
-      <div
-        className="container-fluid"
-      >
-        <div
-          className=""
-          id="map"
-        />
-      </div>
+      <withStateHandlers(withScriptjs(withGoogleMap(Component)))
+        containerElement={
+          <div
+            className="maps--containerElement"
+          />
+        }
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgM64gpvjKwX3JhihSyRs2pX9N8npMFzI&v=3.exp&libraries=geometry,drawing,places"
+        loadingElement={<div />}
+        mapElement={
+          <div
+            className="maps--mapElement"
+          />
+        }
+      />
     </div>
   </div>
 </section>
@@ -317,7 +323,7 @@ exports[`should render footer correctly 1`] = `
                   >
                     <input
                       className="form-control"
-                      name="fName"
+                      id="fName"
                       onChange={[Function]}
                       placeholder="First Name*"
                       type="text"
@@ -406,14 +412,20 @@ exports[`should render footer correctly 1`] = `
     <div
       className="row mb-4"
     >
-      <div
-        className="container-fluid"
-      >
-        <div
-          className=""
-          id="map"
-        />
-      </div>
+      <withStateHandlers(withScriptjs(withGoogleMap(Component)))
+        containerElement={
+          <div
+            className="maps--containerElement"
+          />
+        }
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgM64gpvjKwX3JhihSyRs2pX9N8npMFzI&v=3.exp&libraries=geometry,drawing,places"
+        loadingElement={<div />}
+        mapElement={
+          <div
+            className="maps--mapElement"
+          />
+        }
+      />
     </div>
   </div>
 </section>
@@ -527,7 +539,7 @@ exports[`should render success message on valid form submit 1`] = `
                   >
                     <input
                       className="form-control"
-                      name="fName"
+                      id="fName"
                       onChange={[Function]}
                       placeholder="First Name*"
                       type="text"
@@ -616,14 +628,20 @@ exports[`should render success message on valid form submit 1`] = `
     <div
       className="row mb-4"
     >
-      <div
-        className="container-fluid"
-      >
-        <div
-          className=""
-          id="map"
-        />
-      </div>
+      <withStateHandlers(withScriptjs(withGoogleMap(Component)))
+        containerElement={
+          <div
+            className="maps--containerElement"
+          />
+        }
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgM64gpvjKwX3JhihSyRs2pX9N8npMFzI&v=3.exp&libraries=geometry,drawing,places"
+        loadingElement={<div />}
+        mapElement={
+          <div
+            className="maps--mapElement"
+          />
+        }
+      />
     </div>
   </div>
 </section>
@@ -736,7 +754,7 @@ exports[`should set contact number on input change 1`] = `
                   >
                     <input
                       className="form-control"
-                      name="fName"
+                      id="fName"
                       onChange={[Function]}
                       placeholder="First Name*"
                       type="text"
@@ -825,14 +843,20 @@ exports[`should set contact number on input change 1`] = `
     <div
       className="row mb-4"
     >
-      <div
-        className="container-fluid"
-      >
-        <div
-          className=""
-          id="map"
-        />
-      </div>
+      <withStateHandlers(withScriptjs(withGoogleMap(Component)))
+        containerElement={
+          <div
+            className="maps--containerElement"
+          />
+        }
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgM64gpvjKwX3JhihSyRs2pX9N8npMFzI&v=3.exp&libraries=geometry,drawing,places"
+        loadingElement={<div />}
+        mapElement={
+          <div
+            className="maps--mapElement"
+          />
+        }
+      />
     </div>
   </div>
 </section>
@@ -945,7 +969,7 @@ exports[`should set email on input change 1`] = `
                   >
                     <input
                       className="form-control"
-                      name="fName"
+                      id="fName"
                       onChange={[Function]}
                       placeholder="First Name*"
                       type="text"
@@ -1034,14 +1058,20 @@ exports[`should set email on input change 1`] = `
     <div
       className="row mb-4"
     >
-      <div
-        className="container-fluid"
-      >
-        <div
-          className=""
-          id="map"
-        />
-      </div>
+      <withStateHandlers(withScriptjs(withGoogleMap(Component)))
+        containerElement={
+          <div
+            className="maps--containerElement"
+          />
+        }
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgM64gpvjKwX3JhihSyRs2pX9N8npMFzI&v=3.exp&libraries=geometry,drawing,places"
+        loadingElement={<div />}
+        mapElement={
+          <div
+            className="maps--mapElement"
+          />
+        }
+      />
     </div>
   </div>
 </section>
@@ -1154,7 +1184,7 @@ exports[`should set first name on input change 1`] = `
                   >
                     <input
                       className="form-control"
-                      name="fName"
+                      id="fName"
                       onChange={[Function]}
                       placeholder="First Name*"
                       type="text"
@@ -1243,14 +1273,20 @@ exports[`should set first name on input change 1`] = `
     <div
       className="row mb-4"
     >
-      <div
-        className="container-fluid"
-      >
-        <div
-          className=""
-          id="map"
-        />
-      </div>
+      <withStateHandlers(withScriptjs(withGoogleMap(Component)))
+        containerElement={
+          <div
+            className="maps--containerElement"
+          />
+        }
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgM64gpvjKwX3JhihSyRs2pX9N8npMFzI&v=3.exp&libraries=geometry,drawing,places"
+        loadingElement={<div />}
+        mapElement={
+          <div
+            className="maps--mapElement"
+          />
+        }
+      />
     </div>
   </div>
 </section>
@@ -1363,7 +1399,7 @@ exports[`should set last name on input change 1`] = `
                   >
                     <input
                       className="form-control"
-                      name="fName"
+                      id="fName"
                       onChange={[Function]}
                       placeholder="First Name*"
                       type="text"
@@ -1452,14 +1488,20 @@ exports[`should set last name on input change 1`] = `
     <div
       className="row mb-4"
     >
-      <div
-        className="container-fluid"
-      >
-        <div
-          className=""
-          id="map"
-        />
-      </div>
+      <withStateHandlers(withScriptjs(withGoogleMap(Component)))
+        containerElement={
+          <div
+            className="maps--containerElement"
+          />
+        }
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgM64gpvjKwX3JhihSyRs2pX9N8npMFzI&v=3.exp&libraries=geometry,drawing,places"
+        loadingElement={<div />}
+        mapElement={
+          <div
+            className="maps--mapElement"
+          />
+        }
+      />
     </div>
   </div>
 </section>
@@ -1572,7 +1614,7 @@ exports[`should set message on input change 1`] = `
                   >
                     <input
                       className="form-control"
-                      name="fName"
+                      id="fName"
                       onChange={[Function]}
                       placeholder="First Name*"
                       type="text"
@@ -1661,14 +1703,20 @@ exports[`should set message on input change 1`] = `
     <div
       className="row mb-4"
     >
-      <div
-        className="container-fluid"
-      >
-        <div
-          className=""
-          id="map"
-        />
-      </div>
+      <withStateHandlers(withScriptjs(withGoogleMap(Component)))
+        containerElement={
+          <div
+            className="maps--containerElement"
+          />
+        }
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgM64gpvjKwX3JhihSyRs2pX9N8npMFzI&v=3.exp&libraries=geometry,drawing,places"
+        loadingElement={<div />}
+        mapElement={
+          <div
+            className="maps--mapElement"
+          />
+        }
+      />
     </div>
   </div>
 </section>

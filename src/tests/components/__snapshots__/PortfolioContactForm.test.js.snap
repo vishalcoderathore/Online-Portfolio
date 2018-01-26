@@ -1,0 +1,1675 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render error message on invalid form submit 1`] = `
+<section
+  className="py-5 text-center bg-light"
+  id="myContact"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="info-header"
+        >
+          <h1
+            className="intro--header pb-3 pt-5"
+            data-aos="fade-down"
+            data-aos-duration="800"
+          >
+            CONTACT ME
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col-md-6 text-center py-2"
+      >
+        <h4>
+          Find me here
+        </h4>
+      </div>
+      <div
+        className="col-md-6 py-2"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-6"
+          >
+            <a
+              className="btn btn-warning"
+              href="https://github.com/vishalcoderathore"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-github fa-2x"
+              />
+            </a>
+          </div>
+          <div
+            className="col-6"
+          >
+            <a
+              className="btn btn-info"
+              href="https://github.com/vishalcoderathore"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-linkedin fa-2x"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body p-4"
+          >
+            <form
+              id="submitForm"
+              onSubmit={[Function]}
+            >
+              <h5
+                className="text-center"
+              >
+                Please fill out this form to contact me
+              </h5>
+              <ErrorPopup />
+              <hr />
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      name="fName"
+                      onChange={[Function]}
+                      placeholder="First Name*"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="lName"
+                      onChange={[Function]}
+                      placeholder="Last Name*"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="emailAddress"
+                      onChange={[Function]}
+                      placeholder="Email Address*"
+                      type="email"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="contactNumber"
+                      onChange={[Function]}
+                      placeholder="Contact Number"
+                      type="number"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-12"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <textarea
+                      className="form-control"
+                      id="msg-area"
+                      onChange={[Function]}
+                      placeholder="Message"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-12 form-group"
+                >
+                  <button
+                    className="btn btn-outline-danger"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="container-fluid"
+      >
+        <div
+          className=""
+          id="map"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`should render footer correctly 1`] = `
+<section
+  className="py-5 text-center bg-light"
+  id="myContact"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="info-header"
+        >
+          <h1
+            className="intro--header pb-3 pt-5"
+            data-aos="fade-down"
+            data-aos-duration="800"
+          >
+            CONTACT ME
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col-md-6 text-center py-2"
+      >
+        <h4>
+          Find me here
+        </h4>
+      </div>
+      <div
+        className="col-md-6 py-2"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-6"
+          >
+            <a
+              className="btn btn-warning"
+              href="https://github.com/vishalcoderathore"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-github fa-2x"
+              />
+            </a>
+          </div>
+          <div
+            className="col-6"
+          >
+            <a
+              className="btn btn-info"
+              href="https://github.com/vishalcoderathore"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-linkedin fa-2x"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body p-4"
+          >
+            <form
+              id="submitForm"
+              onSubmit={[Function]}
+            >
+              <h5
+                className="text-center"
+              >
+                Please fill out this form to contact me
+              </h5>
+              <hr />
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      name="fName"
+                      onChange={[Function]}
+                      placeholder="First Name*"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="lName"
+                      onChange={[Function]}
+                      placeholder="Last Name*"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="emailAddress"
+                      onChange={[Function]}
+                      placeholder="Email Address*"
+                      type="email"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="contactNumber"
+                      onChange={[Function]}
+                      placeholder="Contact Number"
+                      type="number"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-12"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <textarea
+                      className="form-control"
+                      id="msg-area"
+                      onChange={[Function]}
+                      placeholder="Message"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-12 form-group"
+                >
+                  <button
+                    className="btn btn-outline-danger"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="container-fluid"
+      >
+        <div
+          className=""
+          id="map"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`should render success message on valid form submit 1`] = `
+<section
+  className="py-5 text-center bg-light"
+  id="myContact"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="info-header"
+        >
+          <h1
+            className="intro--header pb-3 pt-5"
+            data-aos="fade-down"
+            data-aos-duration="800"
+          >
+            CONTACT ME
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col-md-6 text-center py-2"
+      >
+        <h4>
+          Find me here
+        </h4>
+      </div>
+      <div
+        className="col-md-6 py-2"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-6"
+          >
+            <a
+              className="btn btn-warning"
+              href="https://github.com/vishalcoderathore"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-github fa-2x"
+              />
+            </a>
+          </div>
+          <div
+            className="col-6"
+          >
+            <a
+              className="btn btn-info"
+              href="https://github.com/vishalcoderathore"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-linkedin fa-2x"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body p-4"
+          >
+            <form
+              id="submitForm"
+              onSubmit={[Function]}
+            >
+              <h5
+                className="text-center"
+              >
+                Please fill out this form to contact me
+              </h5>
+              <SuccessPopup />
+              <hr />
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      name="fName"
+                      onChange={[Function]}
+                      placeholder="First Name*"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="lName"
+                      onChange={[Function]}
+                      placeholder="Last Name*"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="emailAddress"
+                      onChange={[Function]}
+                      placeholder="Email Address*"
+                      type="email"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="contactNumber"
+                      onChange={[Function]}
+                      placeholder="Contact Number"
+                      type="number"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-12"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <textarea
+                      className="form-control"
+                      id="msg-area"
+                      onChange={[Function]}
+                      placeholder="Message"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-12 form-group"
+                >
+                  <button
+                    className="btn btn-outline-danger"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="container-fluid"
+      >
+        <div
+          className=""
+          id="map"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`should set contact number on input change 1`] = `
+<section
+  className="py-5 text-center bg-light"
+  id="myContact"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="info-header"
+        >
+          <h1
+            className="intro--header pb-3 pt-5"
+            data-aos="fade-down"
+            data-aos-duration="800"
+          >
+            CONTACT ME
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col-md-6 text-center py-2"
+      >
+        <h4>
+          Find me here
+        </h4>
+      </div>
+      <div
+        className="col-md-6 py-2"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-6"
+          >
+            <a
+              className="btn btn-warning"
+              href="https://github.com/vishalcoderathore"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-github fa-2x"
+              />
+            </a>
+          </div>
+          <div
+            className="col-6"
+          >
+            <a
+              className="btn btn-info"
+              href="https://github.com/vishalcoderathore"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-linkedin fa-2x"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body p-4"
+          >
+            <form
+              id="submitForm"
+              onSubmit={[Function]}
+            >
+              <h5
+                className="text-center"
+              >
+                Please fill out this form to contact me
+              </h5>
+              <hr />
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      name="fName"
+                      onChange={[Function]}
+                      placeholder="First Name*"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="lName"
+                      onChange={[Function]}
+                      placeholder="Last Name*"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="emailAddress"
+                      onChange={[Function]}
+                      placeholder="Email Address*"
+                      type="email"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="contactNumber"
+                      onChange={[Function]}
+                      placeholder="Contact Number"
+                      type="number"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-12"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <textarea
+                      className="form-control"
+                      id="msg-area"
+                      onChange={[Function]}
+                      placeholder="Message"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-12 form-group"
+                >
+                  <button
+                    className="btn btn-outline-danger"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="container-fluid"
+      >
+        <div
+          className=""
+          id="map"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`should set email on input change 1`] = `
+<section
+  className="py-5 text-center bg-light"
+  id="myContact"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="info-header"
+        >
+          <h1
+            className="intro--header pb-3 pt-5"
+            data-aos="fade-down"
+            data-aos-duration="800"
+          >
+            CONTACT ME
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col-md-6 text-center py-2"
+      >
+        <h4>
+          Find me here
+        </h4>
+      </div>
+      <div
+        className="col-md-6 py-2"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-6"
+          >
+            <a
+              className="btn btn-warning"
+              href="https://github.com/vishalcoderathore"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-github fa-2x"
+              />
+            </a>
+          </div>
+          <div
+            className="col-6"
+          >
+            <a
+              className="btn btn-info"
+              href="https://github.com/vishalcoderathore"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-linkedin fa-2x"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body p-4"
+          >
+            <form
+              id="submitForm"
+              onSubmit={[Function]}
+            >
+              <h5
+                className="text-center"
+              >
+                Please fill out this form to contact me
+              </h5>
+              <hr />
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      name="fName"
+                      onChange={[Function]}
+                      placeholder="First Name*"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="lName"
+                      onChange={[Function]}
+                      placeholder="Last Name*"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="emailAddress"
+                      onChange={[Function]}
+                      placeholder="Email Address*"
+                      type="email"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="contactNumber"
+                      onChange={[Function]}
+                      placeholder="Contact Number"
+                      type="number"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-12"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <textarea
+                      className="form-control"
+                      id="msg-area"
+                      onChange={[Function]}
+                      placeholder="Message"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-12 form-group"
+                >
+                  <button
+                    className="btn btn-outline-danger"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="container-fluid"
+      >
+        <div
+          className=""
+          id="map"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`should set first name on input change 1`] = `
+<section
+  className="py-5 text-center bg-light"
+  id="myContact"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="info-header"
+        >
+          <h1
+            className="intro--header pb-3 pt-5"
+            data-aos="fade-down"
+            data-aos-duration="800"
+          >
+            CONTACT ME
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col-md-6 text-center py-2"
+      >
+        <h4>
+          Find me here
+        </h4>
+      </div>
+      <div
+        className="col-md-6 py-2"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-6"
+          >
+            <a
+              className="btn btn-warning"
+              href="https://github.com/vishalcoderathore"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-github fa-2x"
+              />
+            </a>
+          </div>
+          <div
+            className="col-6"
+          >
+            <a
+              className="btn btn-info"
+              href="https://github.com/vishalcoderathore"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-linkedin fa-2x"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body p-4"
+          >
+            <form
+              id="submitForm"
+              onSubmit={[Function]}
+            >
+              <h5
+                className="text-center"
+              >
+                Please fill out this form to contact me
+              </h5>
+              <hr />
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      name="fName"
+                      onChange={[Function]}
+                      placeholder="First Name*"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="lName"
+                      onChange={[Function]}
+                      placeholder="Last Name*"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="emailAddress"
+                      onChange={[Function]}
+                      placeholder="Email Address*"
+                      type="email"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="contactNumber"
+                      onChange={[Function]}
+                      placeholder="Contact Number"
+                      type="number"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-12"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <textarea
+                      className="form-control"
+                      id="msg-area"
+                      onChange={[Function]}
+                      placeholder="Message"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-12 form-group"
+                >
+                  <button
+                    className="btn btn-outline-danger"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="container-fluid"
+      >
+        <div
+          className=""
+          id="map"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`should set last name on input change 1`] = `
+<section
+  className="py-5 text-center bg-light"
+  id="myContact"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="info-header"
+        >
+          <h1
+            className="intro--header pb-3 pt-5"
+            data-aos="fade-down"
+            data-aos-duration="800"
+          >
+            CONTACT ME
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col-md-6 text-center py-2"
+      >
+        <h4>
+          Find me here
+        </h4>
+      </div>
+      <div
+        className="col-md-6 py-2"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-6"
+          >
+            <a
+              className="btn btn-warning"
+              href="https://github.com/vishalcoderathore"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-github fa-2x"
+              />
+            </a>
+          </div>
+          <div
+            className="col-6"
+          >
+            <a
+              className="btn btn-info"
+              href="https://github.com/vishalcoderathore"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-linkedin fa-2x"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body p-4"
+          >
+            <form
+              id="submitForm"
+              onSubmit={[Function]}
+            >
+              <h5
+                className="text-center"
+              >
+                Please fill out this form to contact me
+              </h5>
+              <hr />
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      name="fName"
+                      onChange={[Function]}
+                      placeholder="First Name*"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="lName"
+                      onChange={[Function]}
+                      placeholder="Last Name*"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="emailAddress"
+                      onChange={[Function]}
+                      placeholder="Email Address*"
+                      type="email"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="contactNumber"
+                      onChange={[Function]}
+                      placeholder="Contact Number"
+                      type="number"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-12"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <textarea
+                      className="form-control"
+                      id="msg-area"
+                      onChange={[Function]}
+                      placeholder="Message"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-12 form-group"
+                >
+                  <button
+                    className="btn btn-outline-danger"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="container-fluid"
+      >
+        <div
+          className=""
+          id="map"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`should set message on input change 1`] = `
+<section
+  className="py-5 text-center bg-light"
+  id="myContact"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="info-header"
+        >
+          <h1
+            className="intro--header pb-3 pt-5"
+            data-aos="fade-down"
+            data-aos-duration="800"
+          >
+            CONTACT ME
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col-md-6 text-center py-2"
+      >
+        <h4>
+          Find me here
+        </h4>
+      </div>
+      <div
+        className="col-md-6 py-2"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-6"
+          >
+            <a
+              className="btn btn-warning"
+              href="https://github.com/vishalcoderathore"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-github fa-2x"
+              />
+            </a>
+          </div>
+          <div
+            className="col-6"
+          >
+            <a
+              className="btn btn-info"
+              href="https://github.com/vishalcoderathore"
+              target="_blank"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-linkedin fa-2x"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body p-4"
+          >
+            <form
+              id="submitForm"
+              onSubmit={[Function]}
+            >
+              <h5
+                className="text-center"
+              >
+                Please fill out this form to contact me
+              </h5>
+              <hr />
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      name="fName"
+                      onChange={[Function]}
+                      placeholder="First Name*"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="lName"
+                      onChange={[Function]}
+                      placeholder="Last Name*"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="emailAddress"
+                      onChange={[Function]}
+                      placeholder="Email Address*"
+                      type="email"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <input
+                      className="form-control"
+                      id="contactNumber"
+                      onChange={[Function]}
+                      placeholder="Contact Number"
+                      type="number"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-12"
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <textarea
+                      className="form-control"
+                      id="msg-area"
+                      onChange={[Function]}
+                      placeholder="Message"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-md-12 form-group"
+                >
+                  <button
+                    className="btn btn-outline-danger"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mb-4"
+    >
+      <div
+        className="container-fluid"
+      >
+        <div
+          className=""
+          id="map"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+`;

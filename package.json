@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "aos": "^2.2.0",
+    "aws-sdk": "^2.186.0",
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
     "babel-jest": "^22.0.4",

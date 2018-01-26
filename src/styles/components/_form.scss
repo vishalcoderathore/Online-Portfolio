@@ -7,8 +7,15 @@
 }
 
 .form__error {
-    color: $dark-pink;
+    color: $progressInfo-red;
     font-style: italic;
-    margin: 0 0 $m-Size 0;
+    //margin: 0 0 $m-Size 0;
+    text-align: center;
+}
+
+.form__success {
+    color: $progressInfo-green;
+    font-style: italic;
+    //margin: 0 0 $m-Size 0;
     text-align: center;
 }

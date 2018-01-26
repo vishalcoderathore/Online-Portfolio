@@ -11,7 +11,15 @@ import AOS from 'aos';
 class PortfolioDashboard extends React.Component {
 
     componentWillMount() {
-        AOS.init();
+        var init = [];
+        var x = setInterval(function() {
+            init.push(AOS.init());
+            if (init.length >= 2) {
+                 clearInterval(x);
+            }
+        }, 1000);
+
+        console.log(init.length);
     }
 
     render() {

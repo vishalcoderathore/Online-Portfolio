@@ -63,7 +63,7 @@ exports[`should render portfolio education page correctly 1`] = `
             <p
               className="card-text"
             >
-              GPA: 4.0
+              CGPA: 4.0
             </p>
           </div>
         </div>
@@ -101,7 +101,7 @@ exports[`should render portfolio education page correctly 1`] = `
             <p
               className="card-text"
             >
-              GPA: 3.0
+              CGPA: 3.0
             </p>
           </div>
         </div>

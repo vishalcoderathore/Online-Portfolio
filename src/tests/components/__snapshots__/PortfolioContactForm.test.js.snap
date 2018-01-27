@@ -104,8 +104,16 @@ exports[`should render error message on invalid form submit 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-address-card"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="fName"
@@ -119,8 +127,16 @@ exports[`should render error message on invalid form submit 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-address-card"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="lName"
@@ -134,8 +150,16 @@ exports[`should render error message on invalid form submit 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-envelope"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="emailAddress"
@@ -149,14 +173,22 @@ exports[`should render error message on invalid form submit 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-phone"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="contactNumber"
                       onChange={[Function]}
                       placeholder="Contact Number"
-                      type="number"
+                      type="tel"
                     />
                   </div>
                 </div>
@@ -168,8 +200,16 @@ exports[`should render error message on invalid form submit 1`] = `
                   className="col-md-12"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-comment"
+                      />
+                    </div>
                     <textarea
                       className="form-control"
                       id="msg-area"
@@ -194,8 +234,12 @@ exports[`should render error message on invalid form submit 1`] = `
         </div>
       </div>
     </div>
+  </div>
+  <div
+    className="container-fluid"
+  >
     <div
-      className="row mb-4"
+      className="row"
     >
       <withStateHandlers(withScriptjs(withGoogleMap(Component)))
         containerElement={
@@ -319,8 +363,16 @@ exports[`should render footer correctly 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-address-card"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="fName"
@@ -334,8 +386,16 @@ exports[`should render footer correctly 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-address-card"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="lName"
@@ -349,8 +409,16 @@ exports[`should render footer correctly 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-envelope"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="emailAddress"
@@ -364,14 +432,22 @@ exports[`should render footer correctly 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-phone"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="contactNumber"
                       onChange={[Function]}
                       placeholder="Contact Number"
-                      type="number"
+                      type="tel"
                     />
                   </div>
                 </div>
@@ -383,8 +459,16 @@ exports[`should render footer correctly 1`] = `
                   className="col-md-12"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-comment"
+                      />
+                    </div>
                     <textarea
                       className="form-control"
                       id="msg-area"
@@ -409,8 +493,12 @@ exports[`should render footer correctly 1`] = `
         </div>
       </div>
     </div>
+  </div>
+  <div
+    className="container-fluid"
+  >
     <div
-      className="row mb-4"
+      className="row"
     >
       <withStateHandlers(withScriptjs(withGoogleMap(Component)))
         containerElement={
@@ -535,8 +623,16 @@ exports[`should render success message on valid form submit 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-address-card"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="fName"
@@ -550,8 +646,16 @@ exports[`should render success message on valid form submit 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-address-card"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="lName"
@@ -565,8 +669,16 @@ exports[`should render success message on valid form submit 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-envelope"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="emailAddress"
@@ -580,14 +692,22 @@ exports[`should render success message on valid form submit 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-phone"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="contactNumber"
                       onChange={[Function]}
                       placeholder="Contact Number"
-                      type="number"
+                      type="tel"
                     />
                   </div>
                 </div>
@@ -599,8 +719,16 @@ exports[`should render success message on valid form submit 1`] = `
                   className="col-md-12"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-comment"
+                      />
+                    </div>
                     <textarea
                       className="form-control"
                       id="msg-area"
@@ -625,8 +753,12 @@ exports[`should render success message on valid form submit 1`] = `
         </div>
       </div>
     </div>
+  </div>
+  <div
+    className="container-fluid"
+  >
     <div
-      className="row mb-4"
+      className="row"
     >
       <withStateHandlers(withScriptjs(withGoogleMap(Component)))
         containerElement={
@@ -750,8 +882,16 @@ exports[`should set contact number on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-address-card"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="fName"
@@ -765,8 +905,16 @@ exports[`should set contact number on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-address-card"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="lName"
@@ -780,8 +928,16 @@ exports[`should set contact number on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-envelope"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="emailAddress"
@@ -795,14 +951,22 @@ exports[`should set contact number on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-phone"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="contactNumber"
                       onChange={[Function]}
                       placeholder="Contact Number"
-                      type="number"
+                      type="tel"
                     />
                   </div>
                 </div>
@@ -814,8 +978,16 @@ exports[`should set contact number on input change 1`] = `
                   className="col-md-12"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-comment"
+                      />
+                    </div>
                     <textarea
                       className="form-control"
                       id="msg-area"
@@ -840,8 +1012,12 @@ exports[`should set contact number on input change 1`] = `
         </div>
       </div>
     </div>
+  </div>
+  <div
+    className="container-fluid"
+  >
     <div
-      className="row mb-4"
+      className="row"
     >
       <withStateHandlers(withScriptjs(withGoogleMap(Component)))
         containerElement={
@@ -965,8 +1141,16 @@ exports[`should set email on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-address-card"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="fName"
@@ -980,8 +1164,16 @@ exports[`should set email on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-address-card"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="lName"
@@ -995,8 +1187,16 @@ exports[`should set email on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-envelope"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="emailAddress"
@@ -1010,14 +1210,22 @@ exports[`should set email on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-phone"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="contactNumber"
                       onChange={[Function]}
                       placeholder="Contact Number"
-                      type="number"
+                      type="tel"
                     />
                   </div>
                 </div>
@@ -1029,8 +1237,16 @@ exports[`should set email on input change 1`] = `
                   className="col-md-12"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-comment"
+                      />
+                    </div>
                     <textarea
                       className="form-control"
                       id="msg-area"
@@ -1055,8 +1271,12 @@ exports[`should set email on input change 1`] = `
         </div>
       </div>
     </div>
+  </div>
+  <div
+    className="container-fluid"
+  >
     <div
-      className="row mb-4"
+      className="row"
     >
       <withStateHandlers(withScriptjs(withGoogleMap(Component)))
         containerElement={
@@ -1180,8 +1400,16 @@ exports[`should set first name on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-address-card"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="fName"
@@ -1195,8 +1423,16 @@ exports[`should set first name on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-address-card"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="lName"
@@ -1210,8 +1446,16 @@ exports[`should set first name on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-envelope"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="emailAddress"
@@ -1225,14 +1469,22 @@ exports[`should set first name on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-phone"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="contactNumber"
                       onChange={[Function]}
                       placeholder="Contact Number"
-                      type="number"
+                      type="tel"
                     />
                   </div>
                 </div>
@@ -1244,8 +1496,16 @@ exports[`should set first name on input change 1`] = `
                   className="col-md-12"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-comment"
+                      />
+                    </div>
                     <textarea
                       className="form-control"
                       id="msg-area"
@@ -1270,8 +1530,12 @@ exports[`should set first name on input change 1`] = `
         </div>
       </div>
     </div>
+  </div>
+  <div
+    className="container-fluid"
+  >
     <div
-      className="row mb-4"
+      className="row"
     >
       <withStateHandlers(withScriptjs(withGoogleMap(Component)))
         containerElement={
@@ -1395,8 +1659,16 @@ exports[`should set last name on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-address-card"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="fName"
@@ -1410,8 +1682,16 @@ exports[`should set last name on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-address-card"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="lName"
@@ -1425,8 +1705,16 @@ exports[`should set last name on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-envelope"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="emailAddress"
@@ -1440,14 +1728,22 @@ exports[`should set last name on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-phone"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="contactNumber"
                       onChange={[Function]}
                       placeholder="Contact Number"
-                      type="number"
+                      type="tel"
                     />
                   </div>
                 </div>
@@ -1459,8 +1755,16 @@ exports[`should set last name on input change 1`] = `
                   className="col-md-12"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-comment"
+                      />
+                    </div>
                     <textarea
                       className="form-control"
                       id="msg-area"
@@ -1485,8 +1789,12 @@ exports[`should set last name on input change 1`] = `
         </div>
       </div>
     </div>
+  </div>
+  <div
+    className="container-fluid"
+  >
     <div
-      className="row mb-4"
+      className="row"
     >
       <withStateHandlers(withScriptjs(withGoogleMap(Component)))
         containerElement={
@@ -1610,8 +1918,16 @@ exports[`should set message on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-address-card"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="fName"
@@ -1625,8 +1941,16 @@ exports[`should set message on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-address-card"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="lName"
@@ -1640,8 +1964,16 @@ exports[`should set message on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-envelope"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="emailAddress"
@@ -1655,14 +1987,22 @@ exports[`should set message on input change 1`] = `
                   className="col-md-6"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-phone"
+                      />
+                    </div>
                     <input
                       className="form-control"
                       id="contactNumber"
                       onChange={[Function]}
                       placeholder="Contact Number"
-                      type="number"
+                      type="tel"
                     />
                   </div>
                 </div>
@@ -1674,8 +2014,16 @@ exports[`should set message on input change 1`] = `
                   className="col-md-12"
                 >
                   <div
-                    className="form-group"
+                    className="form-group input-group"
                   >
+                    <div
+                      className="input-group-addon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-comment"
+                      />
+                    </div>
                     <textarea
                       className="form-control"
                       id="msg-area"
@@ -1700,8 +2048,12 @@ exports[`should set message on input change 1`] = `
         </div>
       </div>
     </div>
+  </div>
+  <div
+    className="container-fluid"
+  >
     <div
-      className="row mb-4"
+      className="row"
     >
       <withStateHandlers(withScriptjs(withGoogleMap(Component)))
         containerElement={

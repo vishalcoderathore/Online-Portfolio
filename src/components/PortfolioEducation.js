@@ -26,7 +26,7 @@ const PortfolioEducation = () => (
                                 University of Minnesota, Minneapolis, MN
                             </p>
                             <p className="card-text">
-                                GPA: 4.0
+                                CGPA: 4.0
                             </p>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ const PortfolioEducation = () => (
                                 North Dakota State University, Fargo, ND
                             </p>
                             <p className="card-text">
-                                GPA: 3.0
+                                CGPA: 3.0
                     </p>
                         </div>
                     </div>

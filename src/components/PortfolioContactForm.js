@@ -149,29 +149,40 @@ class PortfolioContactForm extends React.Component {
                                         <hr />
                                         <div className="row">
                                             <div className="col-md-6">
-                                                <div className="form-group">
+                                                <div className="form-group input-group">
+                                                    <div className="input-group-addon"><i className="fa fa-address-card" aria-hidden="true"></i>
+                                                    </div>
                                                     <input type="text" className="form-control" placeholder="First Name*" id="fName" onChange={this.onFirstNameChange} />
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
-                                                <div className="form-group">
+                                                <div className="form-group input-group">
+                                                    <div className="input-group-addon"><i className="fa fa-address-card" aria-hidden="true"></i>
+                                                    </div>
                                                     <input type="text" className="form-control" placeholder="Last Name*" id="lName" onChange={this.onLastNameChange} />
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
-                                                <div className="form-group">
+                                                <div className="form-group input-group">
+                                                    <div className="input-group-addon"><i className="fa fa-envelope" aria-hidden="true"></i>
+                                                    </div>
                                                     <input type="email" className="form-control" placeholder="Email Address*" id="emailAddress" onChange={this.onEmailChange} />
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
-                                                <div className="form-group">
-                                                    <input type="number" className="form-control" placeholder="Contact Number" id="contactNumber" onChange={this.onContactNumberChange} />
+                                                <div className="form-group input-group">
+                                                    <div className="input-group-addon"><i className="fa fa-phone" aria-hidden="true"></i>
+                                                    </div>
+                                                    <input type="tel" className="form-control" placeholder="Contact Number" id="contactNumber" onChange={this.onContactNumberChange} />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="row">
                                             <div className="col-md-12">
-                                                <div className="form-group">
+                                                <div className="form-group input-group">
+                                                    <div className="input-group-addon"><i className="fa fa-comment" aria-hidden="true"></i>
+
+                                                    </div>
                                                     <textarea className="form-control" placeholder="Message" id="msg-area" onChange={this.onMessageChange}></textarea>
                                                 </div>
                                             </div>
@@ -185,19 +196,17 @@ class PortfolioContactForm extends React.Component {
                             </div>
                         </div>
                     </div>
-                    
-                        <div className="row mb-4">
-                            <MapWithAMakredInfoWindow
-                                googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgM64gpvjKwX3JhihSyRs2pX9N8npMFzI&v=3.exp&libraries=geometry,drawing,places"
-                                loadingElement={<div ></div>}
-                                containerElement={<div className="maps--containerElement"></div>}
-                                mapElement={<div className="maps--mapElement"></div>}
-                            />
-                        </div>
-                   
                 </div>
-
-
+                <div className="container-fluid">
+                    <div className="row">
+                        <MapWithAMakredInfoWindow
+                            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgM64gpvjKwX3JhihSyRs2pX9N8npMFzI&v=3.exp&libraries=geometry,drawing,places"
+                            loadingElement={<div ></div>}
+                            containerElement={<div className="maps--containerElement"></div>}
+                            mapElement={<div className="maps--mapElement"></div>}
+                        />
+                    </div>
+                </div>
             </section>
         );
     };

@@ -33,6 +33,10 @@ beforeEach(() => {
     msg.setAttribute("value", "Test Value");
     msg.setAttribute("id", "msg-area");
     document.body.appendChild(msg);
+
+    var contactForm = document.createElement("A");
+    contactForm.setAttribute("id", "myContact");
+    document.body.appendChild(contactForm);
 });
 
 test('should render footer correctly', () => {

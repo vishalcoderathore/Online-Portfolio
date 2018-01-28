@@ -5,6 +5,7 @@ import LPAWS from '../aws/awsEmail';
 import ErrorPopup from './ErrorPopup';
 import SuccessPopup from './SuccessPopup';
 import MapWithAMakredInfoWindow from './GoogleMaps';
+import jQuery from 'jquery';
 
 class PortfolioContactForm extends React.Component {
 
@@ -66,6 +67,16 @@ class PortfolioContactForm extends React.Component {
         });
     }
 
+    scrollToContact = () => {
+        const $ = jQuery;
+        // get the target position
+        var targetPos = $('#myContact').offset().top;
+        // scroll to target
+        $('html, body').animate({
+            scrollTop: targetPos
+        }, 400);
+    };
+
     onSubmit = (e) => {
         e.preventDefault();
 
@@ -99,6 +110,7 @@ class PortfolioContactForm extends React.Component {
                 });
             });
         }
+        this.scrollToContact();
     };
 
     render() {

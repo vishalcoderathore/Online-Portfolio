@@ -10,17 +10,38 @@ class PortfolioWork extends React.Component {
     }
 
     onReadMoreClick = (e) => {
-        console.log(e.target.id);
-        e.target.id === "work1" ? this.setState((prevState) => {
-            return {
-                readButtonWork1: !(prevState.readButtonWork1)
-            }
-        }) : this.setState((prevState) => {
-            return {
-                readButtonWork2: !(prevState.readButtonWork2)
-            }
-        })
+        (e.target.id === "workButton1" || e.target.id === "workButton1--icon") ? 
+            this.setState((prevState) => {
+                return {
+                    readButtonWork1: !(prevState.readButtonWork1)
+                }
+            }, () => {
+                    {this.state.readButtonWork1 === true ? 
+                        this.changeButtonContent('#workButton1--icon', ' Read Less', 'fa fa-minus', 'fa fa-plus') : 
+                        this.changeButtonContent('#workButton1--icon', ' Read More', 'fa fa-plus', 'fa fa-minus')
+                    }
+                }
+            ) : 
+            this.setState((prevState) => {
+                return {
+                    readButtonWork2: !(prevState.readButtonWork2)
+                }
+            }, () => {
+                    {this.state.readButtonWork2 === true ? 
+                        this.changeButtonContent('#workButton2--icon', ' Read Less', 'fa fa-minus', 'fa fa-plus') : 
+                        this.changeButtonContent('#workButton2--icon', ' Read More', 'fa fa-plus', 'fa fa-minus')
+                    }
+                }
+            );
     };
+
+    changeButtonContent = (iconId, iconText, iconClass, removeClass) => {
+        $(iconId).html(function () {
+            return (iconText);
+        });
+        $(iconId).removeClass(removeClass);
+        $(iconId).addClass(iconClass);
+    }
 
     render() {
         return (
@@ -76,10 +97,17 @@ class PortfolioWork extends React.Component {
                                                 <span className="ml-1">Worked closely with different teams to establish problem specification and system designs.</span>
                                             </p>
                                         </div>
-                                        <button className="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#work1" aria-expanded="false" aria-controls="work1" id="work1" onClick={this.onReadMoreClick}>
-                                            {this.state.readButtonWork1 === true ? <span><i className="fa fa-minus" aria-hidden="true"> Read Less</i>
-                                            </span> : <span><i className="fa fa-plus" aria-hidden="true"> Read More</i>
-                                            </span>}
+                                        <button
+                                            aria-expanded="false"
+                                            aria-controls="work1"
+                                            className="btn btn-outline-success"
+                                            data-toggle="collapse"
+                                            data-target="#work1"
+                                            id="workButton1"
+                                            type="button"
+                                            onClick={this.onReadMoreClick}
+                                        >
+                                            <i className="fa fa-plus" aria-hidden="true" id="workButton1--icon"> Read More </i>  
                                         </button>
                                     </div>
                                 </div>
@@ -120,11 +148,18 @@ class PortfolioWork extends React.Component {
                                                 as the IDE.</span>
                                             </p>
                                         </div>
-                                        <button className="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#work2" aria-expanded="false" aria-controls="work2" id="work2" onClick={this.onReadMoreClick}>
-                                        {this.state.readButtonWork2 === true ? <span><i className="fa fa-minus" aria-hidden="true"> Read Less</i>
-                                            </span> : <span><i className="fa fa-plus" aria-hidden="true"> Read More</i>
-                                            </span>}
-                                    </button>
+                                        <button
+                                            aria-expanded="false"
+                                            aria-controls="work1"
+                                            className="btn btn-outline-success"
+                                            data-toggle="collapse"
+                                            data-target="#work2"
+                                            id="workButton2"
+                                            type="button"
+                                            onClick={this.onReadMoreClick}
+                                        >
+                                            <i className="fa fa-plus" aria-hidden="true" id="workButton2--icon"> Read More </i>  
+                                        </button>
                                     </div>
                                 </div>
                             </div>

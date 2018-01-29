@@ -62,7 +62,7 @@ exports[`should render error message on invalid form submit 1`] = `
           >
             <a
               className="btn btn-info"
-              href="https://github.com/vishalcoderathore"
+              href="https://www.linkedin.com/in/vishal-rathore-3531bb158"
               target="_blank"
             >
               <i
@@ -322,7 +322,7 @@ exports[`should render footer correctly 1`] = `
           >
             <a
               className="btn btn-info"
-              href="https://github.com/vishalcoderathore"
+              href="https://www.linkedin.com/in/vishal-rathore-3531bb158"
               target="_blank"
             >
               <i
@@ -581,7 +581,7 @@ exports[`should render success message on valid form submit 1`] = `
           >
             <a
               className="btn btn-info"
-              href="https://github.com/vishalcoderathore"
+              href="https://www.linkedin.com/in/vishal-rathore-3531bb158"
               target="_blank"
             >
               <i
@@ -841,7 +841,7 @@ exports[`should set contact number on input change 1`] = `
           >
             <a
               className="btn btn-info"
-              href="https://github.com/vishalcoderathore"
+              href="https://www.linkedin.com/in/vishal-rathore-3531bb158"
               target="_blank"
             >
               <i
@@ -1100,7 +1100,7 @@ exports[`should set email on input change 1`] = `
           >
             <a
               className="btn btn-info"
-              href="https://github.com/vishalcoderathore"
+              href="https://www.linkedin.com/in/vishal-rathore-3531bb158"
               target="_blank"
             >
               <i
@@ -1359,7 +1359,7 @@ exports[`should set first name on input change 1`] = `
           >
             <a
               className="btn btn-info"
-              href="https://github.com/vishalcoderathore"
+              href="https://www.linkedin.com/in/vishal-rathore-3531bb158"
               target="_blank"
             >
               <i
@@ -1618,7 +1618,7 @@ exports[`should set last name on input change 1`] = `
           >
             <a
               className="btn btn-info"
-              href="https://github.com/vishalcoderathore"
+              href="https://www.linkedin.com/in/vishal-rathore-3531bb158"
               target="_blank"
             >
               <i
@@ -1877,7 +1877,7 @@ exports[`should set message on input change 1`] = `
           >
             <a
               className="btn btn-info"
-              href="https://github.com/vishalcoderathore"
+              href="https://www.linkedin.com/in/vishal-rathore-3531bb158"
               target="_blank"
             >
               <i

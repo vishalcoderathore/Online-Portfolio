@@ -138,7 +138,7 @@ class PortfolioContactForm extends React.Component {
                                     </a>
                                 </div>
                                 <div className="col-6">
-                                    <a href="https://github.com/vishalcoderathore" target="_blank" className="btn btn-info">
+                                    <a href="https://www.linkedin.com/in/vishal-rathore-3531bb158" target="_blank" className="btn btn-info">
                                         <i className="fa fa-linkedin fa-2x" aria-hidden="true"></i>
                                     </a>
                                 </div>

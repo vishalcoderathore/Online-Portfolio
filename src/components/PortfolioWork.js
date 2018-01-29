@@ -125,7 +125,7 @@ class PortfolioWork extends React.Component {
                                     <hr />
                                     <div className="card-text text-left">
                                         <p>
-                                            Worked on upgrading Cyber Bank Reports (CBR), that provides internl custormers of the bank the ability to login and check their accounts with the bank online and download the transaction reports pdf’s.
+                                            Worked on upgrading Cyber Bank Reports (CBR), that provides internal customers of the bank the ability to login and check their accounts with the bank online and download the transaction reports pdf’s.
                                         </p>
 
                                         <div className="collapse pt-2" id="work2">

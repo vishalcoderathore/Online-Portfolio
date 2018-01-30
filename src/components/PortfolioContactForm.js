@@ -150,7 +150,7 @@ class PortfolioContactForm extends React.Component {
                                     </a>
                                 </div>
                                 <div className="col-4">
-                                    <a href="https://drive.google.com/open?id=1Au_mDy_xsr2U4BEzj6b2bhZNJysAds0y" className="btn btn-success" target="_blank" data-toggle="tooltip" data-placement="top" title="Resume">
+                                    <a href="https://drive.google.com/open?id=1pE1EyD5Nn8kKf-riBliokTTh6Dacu2J1" className="btn btn-success" target="_blank" data-toggle="tooltip" data-placement="top" title="Resume">
                                         <i className="fa fa-download fa-2x" aria-hidden="true"></i>
                                     </a>
                                 </div>
@@ -158,7 +158,7 @@ class PortfolioContactForm extends React.Component {
 
                         </div>
                     </div>
-
+                    
                     <div className="row mb-4">
                         <div className="col">
                             <div className="card">

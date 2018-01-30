@@ -94,6 +94,11 @@ class PortfolioWork extends React.Component {
                                             </p>
                                             <p>
                                                 <i className="fa fa-circle" aria-hidden="true"></i>
+                                                <span className="ml-1">Used SAP Business Objects to create and schedule product statistics reports.
+                                                </span>
+                                            </p>
+                                            <p>
+                                                <i className="fa fa-circle" aria-hidden="true"></i>
                                                 <span className="ml-1">Worked closely with different teams to establish problem specification and system designs.</span>
                                             </p>
                                         </div>

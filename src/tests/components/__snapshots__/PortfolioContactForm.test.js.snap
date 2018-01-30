@@ -44,12 +44,15 @@ exports[`should render error message on invalid form submit 1`] = `
           className="row"
         >
           <div
-            className="col-6"
+            className="col-4"
           >
             <a
               className="btn btn-warning"
+              data-placement="top"
+              data-toggle="tooltip"
               href="https://github.com/vishalcoderathore"
               target="_blank"
+              title="Github"
             >
               <i
                 aria-hidden="true"
@@ -58,16 +61,36 @@ exports[`should render error message on invalid form submit 1`] = `
             </a>
           </div>
           <div
-            className="col-6"
+            className="col-4"
           >
             <a
               className="btn btn-info"
-              href="https://www.linkedin.com/in/vishal-rathore-3531bb158"
+              data-placement="top"
+              data-toggle="tooltip"
+              href="https://www.linkedin.com/in/vrathore0917"
               target="_blank"
+              title="LinkedIn"
             >
               <i
                 aria-hidden="true"
                 className="fa fa-linkedin fa-2x"
+              />
+            </a>
+          </div>
+          <div
+            className="col-4"
+          >
+            <a
+              className="btn btn-success"
+              data-placement="top"
+              data-toggle="tooltip"
+              href="https://drive.google.com/open?id=1Au_mDy_xsr2U4BEzj6b2bhZNJysAds0y"
+              target="_blank"
+              title="Resume"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-download fa-2x"
               />
             </a>
           </div>
@@ -304,12 +327,15 @@ exports[`should render footer correctly 1`] = `
           className="row"
         >
           <div
-            className="col-6"
+            className="col-4"
           >
             <a
               className="btn btn-warning"
+              data-placement="top"
+              data-toggle="tooltip"
               href="https://github.com/vishalcoderathore"
               target="_blank"
+              title="Github"
             >
               <i
                 aria-hidden="true"
@@ -318,16 +344,36 @@ exports[`should render footer correctly 1`] = `
             </a>
           </div>
           <div
-            className="col-6"
+            className="col-4"
           >
             <a
               className="btn btn-info"
-              href="https://www.linkedin.com/in/vishal-rathore-3531bb158"
+              data-placement="top"
+              data-toggle="tooltip"
+              href="https://www.linkedin.com/in/vrathore0917"
               target="_blank"
+              title="LinkedIn"
             >
               <i
                 aria-hidden="true"
                 className="fa fa-linkedin fa-2x"
+              />
+            </a>
+          </div>
+          <div
+            className="col-4"
+          >
+            <a
+              className="btn btn-success"
+              data-placement="top"
+              data-toggle="tooltip"
+              href="https://drive.google.com/open?id=1Au_mDy_xsr2U4BEzj6b2bhZNJysAds0y"
+              target="_blank"
+              title="Resume"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-download fa-2x"
               />
             </a>
           </div>
@@ -563,12 +609,15 @@ exports[`should render success message on valid form submit 1`] = `
           className="row"
         >
           <div
-            className="col-6"
+            className="col-4"
           >
             <a
               className="btn btn-warning"
+              data-placement="top"
+              data-toggle="tooltip"
               href="https://github.com/vishalcoderathore"
               target="_blank"
+              title="Github"
             >
               <i
                 aria-hidden="true"
@@ -577,16 +626,36 @@ exports[`should render success message on valid form submit 1`] = `
             </a>
           </div>
           <div
-            className="col-6"
+            className="col-4"
           >
             <a
               className="btn btn-info"
-              href="https://www.linkedin.com/in/vishal-rathore-3531bb158"
+              data-placement="top"
+              data-toggle="tooltip"
+              href="https://www.linkedin.com/in/vrathore0917"
               target="_blank"
+              title="LinkedIn"
             >
               <i
                 aria-hidden="true"
                 className="fa fa-linkedin fa-2x"
+              />
+            </a>
+          </div>
+          <div
+            className="col-4"
+          >
+            <a
+              className="btn btn-success"
+              data-placement="top"
+              data-toggle="tooltip"
+              href="https://drive.google.com/open?id=1Au_mDy_xsr2U4BEzj6b2bhZNJysAds0y"
+              target="_blank"
+              title="Resume"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-download fa-2x"
               />
             </a>
           </div>
@@ -823,12 +892,15 @@ exports[`should set contact number on input change 1`] = `
           className="row"
         >
           <div
-            className="col-6"
+            className="col-4"
           >
             <a
               className="btn btn-warning"
+              data-placement="top"
+              data-toggle="tooltip"
               href="https://github.com/vishalcoderathore"
               target="_blank"
+              title="Github"
             >
               <i
                 aria-hidden="true"
@@ -837,16 +909,36 @@ exports[`should set contact number on input change 1`] = `
             </a>
           </div>
           <div
-            className="col-6"
+            className="col-4"
           >
             <a
               className="btn btn-info"
-              href="https://www.linkedin.com/in/vishal-rathore-3531bb158"
+              data-placement="top"
+              data-toggle="tooltip"
+              href="https://www.linkedin.com/in/vrathore0917"
               target="_blank"
+              title="LinkedIn"
             >
               <i
                 aria-hidden="true"
                 className="fa fa-linkedin fa-2x"
+              />
+            </a>
+          </div>
+          <div
+            className="col-4"
+          >
+            <a
+              className="btn btn-success"
+              data-placement="top"
+              data-toggle="tooltip"
+              href="https://drive.google.com/open?id=1Au_mDy_xsr2U4BEzj6b2bhZNJysAds0y"
+              target="_blank"
+              title="Resume"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-download fa-2x"
               />
             </a>
           </div>
@@ -1082,12 +1174,15 @@ exports[`should set email on input change 1`] = `
           className="row"
         >
           <div
-            className="col-6"
+            className="col-4"
           >
             <a
               className="btn btn-warning"
+              data-placement="top"
+              data-toggle="tooltip"
               href="https://github.com/vishalcoderathore"
               target="_blank"
+              title="Github"
             >
               <i
                 aria-hidden="true"
@@ -1096,16 +1191,36 @@ exports[`should set email on input change 1`] = `
             </a>
           </div>
           <div
-            className="col-6"
+            className="col-4"
           >
             <a
               className="btn btn-info"
-              href="https://www.linkedin.com/in/vishal-rathore-3531bb158"
+              data-placement="top"
+              data-toggle="tooltip"
+              href="https://www.linkedin.com/in/vrathore0917"
               target="_blank"
+              title="LinkedIn"
             >
               <i
                 aria-hidden="true"
                 className="fa fa-linkedin fa-2x"
+              />
+            </a>
+          </div>
+          <div
+            className="col-4"
+          >
+            <a
+              className="btn btn-success"
+              data-placement="top"
+              data-toggle="tooltip"
+              href="https://drive.google.com/open?id=1Au_mDy_xsr2U4BEzj6b2bhZNJysAds0y"
+              target="_blank"
+              title="Resume"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-download fa-2x"
               />
             </a>
           </div>
@@ -1341,12 +1456,15 @@ exports[`should set first name on input change 1`] = `
           className="row"
         >
           <div
-            className="col-6"
+            className="col-4"
           >
             <a
               className="btn btn-warning"
+              data-placement="top"
+              data-toggle="tooltip"
               href="https://github.com/vishalcoderathore"
               target="_blank"
+              title="Github"
             >
               <i
                 aria-hidden="true"
@@ -1355,16 +1473,36 @@ exports[`should set first name on input change 1`] = `
             </a>
           </div>
           <div
-            className="col-6"
+            className="col-4"
           >
             <a
               className="btn btn-info"
-              href="https://www.linkedin.com/in/vishal-rathore-3531bb158"
+              data-placement="top"
+              data-toggle="tooltip"
+              href="https://www.linkedin.com/in/vrathore0917"
               target="_blank"
+              title="LinkedIn"
             >
               <i
                 aria-hidden="true"
                 className="fa fa-linkedin fa-2x"
+              />
+            </a>
+          </div>
+          <div
+            className="col-4"
+          >
+            <a
+              className="btn btn-success"
+              data-placement="top"
+              data-toggle="tooltip"
+              href="https://drive.google.com/open?id=1Au_mDy_xsr2U4BEzj6b2bhZNJysAds0y"
+              target="_blank"
+              title="Resume"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-download fa-2x"
               />
             </a>
           </div>
@@ -1600,12 +1738,15 @@ exports[`should set last name on input change 1`] = `
           className="row"
         >
           <div
-            className="col-6"
+            className="col-4"
           >
             <a
               className="btn btn-warning"
+              data-placement="top"
+              data-toggle="tooltip"
               href="https://github.com/vishalcoderathore"
               target="_blank"
+              title="Github"
             >
               <i
                 aria-hidden="true"
@@ -1614,16 +1755,36 @@ exports[`should set last name on input change 1`] = `
             </a>
           </div>
           <div
-            className="col-6"
+            className="col-4"
           >
             <a
               className="btn btn-info"
-              href="https://www.linkedin.com/in/vishal-rathore-3531bb158"
+              data-placement="top"
+              data-toggle="tooltip"
+              href="https://www.linkedin.com/in/vrathore0917"
               target="_blank"
+              title="LinkedIn"
             >
               <i
                 aria-hidden="true"
                 className="fa fa-linkedin fa-2x"
+              />
+            </a>
+          </div>
+          <div
+            className="col-4"
+          >
+            <a
+              className="btn btn-success"
+              data-placement="top"
+              data-toggle="tooltip"
+              href="https://drive.google.com/open?id=1Au_mDy_xsr2U4BEzj6b2bhZNJysAds0y"
+              target="_blank"
+              title="Resume"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-download fa-2x"
               />
             </a>
           </div>
@@ -1859,12 +2020,15 @@ exports[`should set message on input change 1`] = `
           className="row"
         >
           <div
-            className="col-6"
+            className="col-4"
           >
             <a
               className="btn btn-warning"
+              data-placement="top"
+              data-toggle="tooltip"
               href="https://github.com/vishalcoderathore"
               target="_blank"
+              title="Github"
             >
               <i
                 aria-hidden="true"
@@ -1873,16 +2037,36 @@ exports[`should set message on input change 1`] = `
             </a>
           </div>
           <div
-            className="col-6"
+            className="col-4"
           >
             <a
               className="btn btn-info"
-              href="https://www.linkedin.com/in/vishal-rathore-3531bb158"
+              data-placement="top"
+              data-toggle="tooltip"
+              href="https://www.linkedin.com/in/vrathore0917"
               target="_blank"
+              title="LinkedIn"
             >
               <i
                 aria-hidden="true"
                 className="fa fa-linkedin fa-2x"
+              />
+            </a>
+          </div>
+          <div
+            className="col-4"
+          >
+            <a
+              className="btn btn-success"
+              data-placement="top"
+              data-toggle="tooltip"
+              href="https://drive.google.com/open?id=1Au_mDy_xsr2U4BEzj6b2bhZNJysAds0y"
+              target="_blank"
+              title="Resume"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-download fa-2x"
               />
             </a>
           </div>

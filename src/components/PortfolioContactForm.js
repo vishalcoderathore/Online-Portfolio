@@ -22,6 +22,13 @@ class PortfolioContactForm extends React.Component {
         };
     }
 
+    componentDidMount() {
+        const $ = jQuery;
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    }
+
     onFirstNameChange = (e) => {
         const updatedfName = e.target.value;
         this.setState(() => {
@@ -132,14 +139,19 @@ class PortfolioContactForm extends React.Component {
                         </div>
                         <div className="col-md-6 py-2">
                             <div className="row">
-                                <div className="col-6">
-                                    <a href="https://github.com/vishalcoderathore" target="_blank" className="btn btn-warning">
+                                <div className="col-4">
+                                    <a href="https://github.com/vishalcoderathore" target="_blank" className="btn btn-warning" data-toggle="tooltip" data-placement="top" title="Github">
                                         <i className="fa fa-github fa-2x" aria-hidden="true"></i>
                                     </a>
                                 </div>
-                                <div className="col-6">
-                                    <a href="https://www.linkedin.com/in/vishal-rathore-3531bb158" target="_blank" className="btn btn-info">
+                                <div className="col-4">
+                                    <a href="https://www.linkedin.com/in/vrathore0917" target="_blank" className="btn btn-info" data-toggle="tooltip" data-placement="top" title="LinkedIn">
                                         <i className="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <div className="col-4">
+                                    <a href="https://drive.google.com/open?id=1Au_mDy_xsr2U4BEzj6b2bhZNJysAds0y" className="btn btn-success" target="_blank" data-toggle="tooltip" data-placement="top" title="Resume">
+                                        <i className="fa fa-download fa-2x" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>

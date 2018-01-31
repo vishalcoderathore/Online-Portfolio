@@ -115,7 +115,7 @@ class PortfolioContactForm extends React.Component {
 
     render() {
         return (
-            <section className="py-5 text-center bg-light" id="myContact">
+            <section className="pt-5 text-center bg-light" id="myContact">
                 <div className="container">
                     <div className="row mb-4">
                         <div className="col">
@@ -143,7 +143,7 @@ class PortfolioContactForm extends React.Component {
                                     </a>
                                 </div>
                                 <div className="col-4">
-                                    <a href="https://drive.google.com/open?id=1pE1EyD5Nn8kKf-riBliokTTh6Dacu2J1" className="btn btn-success" target="_blank" data-toggle="tooltip" data-placement="top" title="Resume">
+                                    <a href="https://drive.google.com/open?id=1CUe2wDiw9BMEg1f0mtOMCOiWAkiw4kg-" className="btn btn-success" target="_blank" data-toggle="tooltip" data-placement="top" title="Resume">
                                         <i className="fa fa-download fa-2x" aria-hidden="true"></i>
                                     </a>
                                 </div>

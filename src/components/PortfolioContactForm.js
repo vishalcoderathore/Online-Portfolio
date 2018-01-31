@@ -22,13 +22,6 @@ class PortfolioContactForm extends React.Component {
         };
     }
 
-    componentDidMount() {
-        const $ = jQuery;
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    }
-
     onFirstNameChange = (e) => {
         const updatedfName = e.target.value;
         this.setState(() => {

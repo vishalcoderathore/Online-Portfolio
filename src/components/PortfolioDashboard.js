@@ -18,8 +18,6 @@ class PortfolioDashboard extends React.Component {
                  clearInterval(x);
             }
         }, 800);
-
-        console.log(init.length);
     }
 
     render() {

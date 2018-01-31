@@ -21,7 +21,6 @@ class Header extends React.Component {
 
     //Close Navbar Button on mobile devices 
     closeNavbarButton = (e) => {
-        console.log('mobile');
             $(".navbar-collapse").collapse('hide');       
     };
 

@@ -143,7 +143,7 @@ class PortfolioContactForm extends React.Component {
                                     </a>
                                 </div>
                                 <div className="col-4">
-                                    <a href="https://drive.google.com/open?id=1CUe2wDiw9BMEg1f0mtOMCOiWAkiw4kg-" className="btn btn-success" target="_blank" data-toggle="tooltip" data-placement="top" title="Resume">
+                                    <a href="https://drive.google.com/open?id=1mz5uD3znKd-nFY48RqhJKym-8KJzuOcF" className="btn btn-success" target="_blank" data-toggle="tooltip" data-placement="top" title="Resume">
                                         <i className="fa fa-download fa-2x" aria-hidden="true"></i>
                                     </a>
                                 </div>

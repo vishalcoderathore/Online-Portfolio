@@ -5,34 +5,76 @@ class PortfolioWork extends React.Component {
         super(props);
         this.state = {
             readButtonWork1: false,
-            readButtonWork2: false
+            readButtonWork2: false,
+            readButtonWork3: false
         };
     }
 
     onReadMoreClick = (e) => {
-        (e.target.id === "workButton1" || e.target.id === "workButton1--icon") ? 
-            this.setState((prevState) => {
-                return {
-                    readButtonWork1: !(prevState.readButtonWork1)
-                }
-            }, () => {
-                    {this.state.readButtonWork1 === true ? 
-                        this.changeButtonContent('#workButton1--icon', ' Read Less', 'fa fa-minus', 'fa fa-plus') : 
-                        this.changeButtonContent('#workButton1--icon', ' Read More', 'fa fa-plus', 'fa fa-minus')
+        // (e.target.id === "workButton1" || e.target.id === "workButton1--icon") ? 
+        //     this.setState((prevState) => {
+        //         return {
+        //             readButtonWork1: !(prevState.readButtonWork1)
+        //         }
+        //     }, () => {
+        //             {this.state.readButtonWork1 === true ? 
+        //                 this.changeButtonContent('#workButton1--icon', ' Read Less', 'fa fa-minus', 'fa fa-plus') : 
+        //                 this.changeButtonContent('#workButton1--icon', ' Read More', 'fa fa-plus', 'fa fa-minus')
+        //             }
+        //         }
+        //     ) : 
+        //     this.setState((prevState) => {
+        //         return {
+        //             readButtonWork2: !(prevState.readButtonWork2)
+        //         }
+        //     }, () => {
+        //             {this.state.readButtonWork2 === true ? 
+        //                 this.changeButtonContent('#workButton2--icon', ' Read Less', 'fa fa-minus', 'fa fa-plus') : 
+        //                 this.changeButtonContent('#workButton2--icon', ' Read More', 'fa fa-plus', 'fa fa-minus')
+        //             }
+        //         }
+        //     );
+
+
+            if(e.target.id === "workButton1" || e.target.id === "workButton1--icon"){
+                this.setState((prevState) => {
+                    return {
+                        readButtonWork1: !(prevState.readButtonWork1)
                     }
-                }
-            ) : 
-            this.setState((prevState) => {
-                return {
-                    readButtonWork2: !(prevState.readButtonWork2)
-                }
-            }, () => {
-                    {this.state.readButtonWork2 === true ? 
-                        this.changeButtonContent('#workButton2--icon', ' Read Less', 'fa fa-minus', 'fa fa-plus') : 
-                        this.changeButtonContent('#workButton2--icon', ' Read More', 'fa fa-plus', 'fa fa-minus')
+                }, () => {
+                        {this.state.readButtonWork1 === true ? 
+                            this.changeButtonContent('#workButton1--icon', ' Read Less', 'fa fa-minus', 'fa fa-plus') : 
+                            this.changeButtonContent('#workButton1--icon', ' Read More', 'fa fa-plus', 'fa fa-minus')
+                        }
                     }
-                }
-            );
+                )
+            }
+            else if(e.target.id === "workButton2" || e.target.id === "workButton2--icon"){
+                this.setState((prevState) => {
+                    return {
+                        readButtonWork2: !(prevState.readButtonWork2)
+                    }
+                }, () => {
+                        {this.state.readButtonWork2 === true ? 
+                            this.changeButtonContent('#workButton2--icon', ' Read Less', 'fa fa-minus', 'fa fa-plus') : 
+                            this.changeButtonContent('#workButton2--icon', ' Read More', 'fa fa-plus', 'fa fa-minus')
+                        }
+                    }
+                );
+            }
+            else if(e.target.id === "workButton3" || e.target.id === "workButton3--icon"){
+                this.setState((prevState) => {
+                    return {
+                        readButtonWork3: !(prevState.readButtonWork3)
+                    }
+                }, () => {
+                        {this.state.readButtonWork3 === true ? 
+                            this.changeButtonContent('#workButton3--icon', ' Read Less', 'fa fa-minus', 'fa fa-plus') : 
+                            this.changeButtonContent('#workButton3--icon', ' Read More', 'fa fa-plus', 'fa fa-minus')
+                        }
+                    }
+                );
+            }
     };
 
     changeButtonContent = (iconId, iconText, iconClass, removeClass) => {
@@ -56,8 +98,61 @@ class PortfolioWork extends React.Component {
                             </div>
                         </div>
                     </div>
+
                     <div className="row">
                         <div className="col pt-5 px-2">
+                            <div className="card education">
+                                <div className="card-body bg-faded">
+                                    <h4 className="card-title">Multi-Tech Systems - <em>Software Engineer</em></h4>
+                                    <small className="text-muted">06-2018 - Current - Minneapolis, MN </small>
+                                    <hr />
+                                    <div className="card-text text-left">
+                                        <p>
+                                            Migrating Node-Red from existing Conduits (Routers) to the AWS Cloud infrastructure to provide improved data processing and systems engineering capabilities. Developed docker containers behind Nginx servers and used docker-gen to generate reverse proxy configs for Nginx.  
+                                        </p>
+
+                                        <div className="collapse pt-2" id="work3">
+                                            <p>
+                                                <i className="fa fa-circle" aria-hidden="true"></i>
+                                                <span className="ml-1">Migrating Node-Red from Conduits to Amazon Web Services using services like EC2 and RDS</span>
+                                            </p>
+                                            <p>
+                                                <i className="fa fa-circle" aria-hidden="true"></i>
+                                                <span className="ml-1">Used Docker Containers to encapsulate Node-Red images. These containers can be scaled up or down depending on the load requirements.</span>
+                                            </p>
+                                            <p>
+                                                <i className="fa fa-circle" aria-hidden="true"></i>
+                                                <span className="ml-1">Used Nginx to support path based routing to different Node-Red containers. This is acheived by using docker-gen that generates reverse proxies for Nginx.</span>
+                                            </p>
+                                            <p>
+                                                <i className="fa fa-circle" aria-hidden="true"></i>
+                                                <span className="ml-1">Developed Node-Red Dashboards to track real time data using widgets like gauges, graphs, charts and ui controls. These dashboards are higly customizable and the customers can create their custom dashboards out of the box.</span>
+                                            </p>
+                                            <p>
+                                                <i className="fa fa-circle" aria-hidden="true"></i>
+                                                <span className="ml-1">Used Python sripts to run/test data simulations on the MultiConnect® mCards™ (MTAC Series) that connects and sends real time data to the MultiConnect® Conduit™ (MTCDT Series), that in turns forwards the data to the nearest AWS EC2 instance.</span>
+                                            </p>
+                                        </div>
+                                        <button
+                                            aria-expanded="false"
+                                            aria-controls="work3"
+                                            className="btn btn-outline-success float-right"
+                                            data-toggle="collapse"
+                                            data-target="#work3"
+                                            id="workButton3"
+                                            type="button"
+                                            onClick={this.onReadMoreClick}
+                                        >
+                                            <i className="fa fa-plus" aria-hidden="true" id="workButton3--icon"> Read More </i>  
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col pt-1 px-2">
                             <div className="card education">
                                 <div className="card-body bg-faded">
                                     <h4 className="card-title">Sherwin Williams - <em>Full Stack Developer</em></h4>
@@ -105,7 +200,7 @@ class PortfolioWork extends React.Component {
                                         <button
                                             aria-expanded="false"
                                             aria-controls="work1"
-                                            className="btn btn-outline-success"
+                                            className="btn btn-outline-success float-right"
                                             data-toggle="collapse"
                                             data-target="#work1"
                                             id="workButton1"
@@ -155,8 +250,8 @@ class PortfolioWork extends React.Component {
                                         </div>
                                         <button
                                             aria-expanded="false"
-                                            aria-controls="work1"
-                                            className="btn btn-outline-success"
+                                            aria-controls="work2"
+                                            className="btn btn-outline-success float-right"
                                             data-toggle="collapse"
                                             data-target="#work2"
                                             id="workButton2"

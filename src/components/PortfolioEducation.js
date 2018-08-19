@@ -26,7 +26,7 @@ const PortfolioEducation = () => (
                                 University of Minnesota, Minneapolis, MN
                             </p>
                             <p className="card-text">
-                                Cumulative GPA: 4.0 / 4.0
+                                Cumulative GPA: 3.94 / 4.0
                             </p>
                         </div>
                     </div>

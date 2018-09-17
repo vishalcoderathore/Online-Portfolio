@@ -108,7 +108,7 @@ class PortfolioWork extends React.Component {
                                     <hr />
                                     <div className="card-text text-left">
                                         <p>
-                                            Migrating Node-Red from existing Conduits (Routers) to the AWS Cloud infrastructure to provide improved data processing and systems engineering capabilities. Developed docker containers behind Nginx servers and used docker-gen to generate reverse proxy configs for Nginx.  
+                                            Migrating Node-Red from existing Conduits (IoT Gateway Devices) to the AWS Cloud infrastructure to provide improved data processing and systems engineering capabilities. Developed docker containers behind Nginx servers and used docker-gen to generate reverse proxy configs for Nginx.  
                                         </p>
 
                                         <div className="collapse pt-2" id="work3">
@@ -118,7 +118,11 @@ class PortfolioWork extends React.Component {
                                             </p>
                                             <p>
                                                 <i className="fa fa-circle" aria-hidden="true"></i>
-                                                <span className="ml-1">Used Docker Containers to encapsulate Node-Red images. These containers can be scaled up or down depending on the load requirements.</span>
+                                                <span className="ml-1">Used Docker Containers to provision Node-Red images. These containers can be scaled up or down depending on the load requirements and accessed via path based routing using Nginx conf file.</span>
+                                            </p>
+                                            <p>
+                                                <i className="fa fa-circle" aria-hidden="true"></i>
+                                                <span className="ml-1">Used Mosquitto MQTT over websockets to send real time data from Conduits (IoT Gateway devices) the cloud.</span>
                                             </p>
                                             <p>
                                                 <i className="fa fa-circle" aria-hidden="true"></i>
@@ -126,11 +130,11 @@ class PortfolioWork extends React.Component {
                                             </p>
                                             <p>
                                                 <i className="fa fa-circle" aria-hidden="true"></i>
-                                                <span className="ml-1">Developed Node-Red Dashboards to track real time data using widgets like gauges, graphs, charts and ui controls. These dashboards are higly customizable and the customers can create their custom dashboards out of the box.</span>
+                                                <span className="ml-1">Developed Node-Red Dashboards to track real time data using widgets like gauges, graphs, charts and ui controls. These dashboards are highly customizable and the customers can create their custom dashboards out of the box.</span>
                                             </p>
                                             <p>
                                                 <i className="fa fa-circle" aria-hidden="true"></i>
-                                                <span className="ml-1">Used Python sripts to run/test data simulations on the MultiConnect® mCards™ (MTAC Series) that connects and sends real time data to the MultiConnect® Conduit™ (MTCDT Series), that in turns forwards the data to the nearest AWS EC2 instance.</span>
+                                                <span className="ml-1">Used Python scripts to run/test data simulations on the MultiConnect® mCards™ (MTAC Series) that connects and sends real time data to the MultiConnect® Conduit™ (MTCDT Series), that in turns forwards the data to the nearest AWS EC2 instance.</span>
                                             </p>
                                         </div>
                                         <button

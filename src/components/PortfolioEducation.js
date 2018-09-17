@@ -26,7 +26,7 @@ const PortfolioEducation = () => (
                                 University of Minnesota, Minneapolis, MN
                             </p>
                             <p className="card-text">
-                                Cumulative GPA: 3.94 / 4.0
+                                Cumulative GPA: 3.88 / 4.0
                             </p>
                         </div>
                     </div>
@@ -72,6 +72,13 @@ const PortfolioEducation = () => (
                                         <td>Google Developer Challenge Scholarship</td>
                                         <td className="d-none d-md-block">2018</td>
                                         <td><a id="google-dev-challange" target="_blank" href="https://drive.google.com/open?id=1FCnrDkJTJxWZvRe868I2KeY7Nkz4nyX0" className="btn btn-outline-danger">View</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Nginx Beginner to Advanced Course</td>
+                                        <td className="d-none d-md-block">2018</td>
+                                        <td><a id="nginx" target="_blank" href="https://drive.google.com/open?id=1YeCpS-Eqmy9gkee6XhZV4jYPRCs914rD" className="btn btn-outline-danger">View</a>
                                         </td>
                                     </tr>
 

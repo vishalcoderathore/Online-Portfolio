@@ -84,13 +84,13 @@ exports[`should render error message on invalid form submit 1`] = `
               className="btn btn-success"
               data-placement="top"
               data-toggle="tooltip"
-              href="https://drive.google.com/open?id=1Uj3gPYt2kLUhwdCyf9pPoF3ZSfHY8wyi"
+              href="https://drive.google.com/open?id=1Erl2irEDZRwC4igXlXmm3skVqbz-CWQB"
               target="_blank"
               title="Resume"
             >
               <i
                 aria-hidden="true"
-                className="fa fa-download fa-2x"
+                className="fa fa-id-badge fa-2x"
               />
             </a>
           </div>
@@ -367,13 +367,13 @@ exports[`should render footer correctly 1`] = `
               className="btn btn-success"
               data-placement="top"
               data-toggle="tooltip"
-              href="https://drive.google.com/open?id=1Uj3gPYt2kLUhwdCyf9pPoF3ZSfHY8wyi"
+              href="https://drive.google.com/open?id=1Erl2irEDZRwC4igXlXmm3skVqbz-CWQB"
               target="_blank"
               title="Resume"
             >
               <i
                 aria-hidden="true"
-                className="fa fa-download fa-2x"
+                className="fa fa-id-badge fa-2x"
               />
             </a>
           </div>
@@ -649,13 +649,13 @@ exports[`should render success message on valid form submit 1`] = `
               className="btn btn-success"
               data-placement="top"
               data-toggle="tooltip"
-              href="https://drive.google.com/open?id=1Uj3gPYt2kLUhwdCyf9pPoF3ZSfHY8wyi"
+              href="https://drive.google.com/open?id=1Erl2irEDZRwC4igXlXmm3skVqbz-CWQB"
               target="_blank"
               title="Resume"
             >
               <i
                 aria-hidden="true"
-                className="fa fa-download fa-2x"
+                className="fa fa-id-badge fa-2x"
               />
             </a>
           </div>
@@ -932,13 +932,13 @@ exports[`should set contact number on input change 1`] = `
               className="btn btn-success"
               data-placement="top"
               data-toggle="tooltip"
-              href="https://drive.google.com/open?id=1Uj3gPYt2kLUhwdCyf9pPoF3ZSfHY8wyi"
+              href="https://drive.google.com/open?id=1Erl2irEDZRwC4igXlXmm3skVqbz-CWQB"
               target="_blank"
               title="Resume"
             >
               <i
                 aria-hidden="true"
-                className="fa fa-download fa-2x"
+                className="fa fa-id-badge fa-2x"
               />
             </a>
           </div>
@@ -1214,13 +1214,13 @@ exports[`should set email on input change 1`] = `
               className="btn btn-success"
               data-placement="top"
               data-toggle="tooltip"
-              href="https://drive.google.com/open?id=1Uj3gPYt2kLUhwdCyf9pPoF3ZSfHY8wyi"
+              href="https://drive.google.com/open?id=1Erl2irEDZRwC4igXlXmm3skVqbz-CWQB"
               target="_blank"
               title="Resume"
             >
               <i
                 aria-hidden="true"
-                className="fa fa-download fa-2x"
+                className="fa fa-id-badge fa-2x"
               />
             </a>
           </div>
@@ -1496,13 +1496,13 @@ exports[`should set first name on input change 1`] = `
               className="btn btn-success"
               data-placement="top"
               data-toggle="tooltip"
-              href="https://drive.google.com/open?id=1Uj3gPYt2kLUhwdCyf9pPoF3ZSfHY8wyi"
+              href="https://drive.google.com/open?id=1Erl2irEDZRwC4igXlXmm3skVqbz-CWQB"
               target="_blank"
               title="Resume"
             >
               <i
                 aria-hidden="true"
-                className="fa fa-download fa-2x"
+                className="fa fa-id-badge fa-2x"
               />
             </a>
           </div>
@@ -1778,13 +1778,13 @@ exports[`should set last name on input change 1`] = `
               className="btn btn-success"
               data-placement="top"
               data-toggle="tooltip"
-              href="https://drive.google.com/open?id=1Uj3gPYt2kLUhwdCyf9pPoF3ZSfHY8wyi"
+              href="https://drive.google.com/open?id=1Erl2irEDZRwC4igXlXmm3skVqbz-CWQB"
               target="_blank"
               title="Resume"
             >
               <i
                 aria-hidden="true"
-                className="fa fa-download fa-2x"
+                className="fa fa-id-badge fa-2x"
               />
             </a>
           </div>
@@ -2060,13 +2060,13 @@ exports[`should set message on input change 1`] = `
               className="btn btn-success"
               data-placement="top"
               data-toggle="tooltip"
-              href="https://drive.google.com/open?id=1Uj3gPYt2kLUhwdCyf9pPoF3ZSfHY8wyi"
+              href="https://drive.google.com/open?id=1Erl2irEDZRwC4igXlXmm3skVqbz-CWQB"
               target="_blank"
               title="Resume"
             >
               <i
                 aria-hidden="true"
-                className="fa fa-download fa-2x"
+                className="fa fa-id-badge fa-2x"
               />
             </a>
           </div>

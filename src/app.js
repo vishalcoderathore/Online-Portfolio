@@ -9,6 +9,12 @@ import './styles/styles.scss';
 import 'react-dates/lib/css/_datepicker.css';
 import { firebase } from './firebase/firebase';
 import LoadingPage from './components/LoadingPage';
+import ReactGA from 'react-ga';
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-125993275-1');
+    ReactGA.pageview('/dashboard');
+}
 
 //Create Store
 const store = configureStore();
@@ -36,8 +42,9 @@ function myFunction() {
        // history.push('/'); 
     }, 1500);
 };
-
+initializeReactGA();
 myFunction();
+
 
 
 // firebase.auth().onAuthStateChanged((user) => {

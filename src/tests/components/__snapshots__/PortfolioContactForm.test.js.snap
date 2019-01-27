@@ -45,6 +45,7 @@ exports[`should render error message on invalid form submit 1`] = `
         >
           <div
             className="col-4"
+            key="Github"
           >
             <a
               className="btn btn-warning"
@@ -62,6 +63,7 @@ exports[`should render error message on invalid form submit 1`] = `
           </div>
           <div
             className="col-4"
+            key="LinkedIn"
           >
             <a
               className="btn btn-info"
@@ -79,6 +81,7 @@ exports[`should render error message on invalid form submit 1`] = `
           </div>
           <div
             className="col-4"
+            key="Resume"
           >
             <a
               className="btn btn-success"
@@ -328,6 +331,7 @@ exports[`should render footer correctly 1`] = `
         >
           <div
             className="col-4"
+            key="Github"
           >
             <a
               className="btn btn-warning"
@@ -345,6 +349,7 @@ exports[`should render footer correctly 1`] = `
           </div>
           <div
             className="col-4"
+            key="LinkedIn"
           >
             <a
               className="btn btn-info"
@@ -362,6 +367,7 @@ exports[`should render footer correctly 1`] = `
           </div>
           <div
             className="col-4"
+            key="Resume"
           >
             <a
               className="btn btn-success"
@@ -610,6 +616,7 @@ exports[`should render success message on valid form submit 1`] = `
         >
           <div
             className="col-4"
+            key="Github"
           >
             <a
               className="btn btn-warning"
@@ -627,6 +634,7 @@ exports[`should render success message on valid form submit 1`] = `
           </div>
           <div
             className="col-4"
+            key="LinkedIn"
           >
             <a
               className="btn btn-info"
@@ -644,6 +652,7 @@ exports[`should render success message on valid form submit 1`] = `
           </div>
           <div
             className="col-4"
+            key="Resume"
           >
             <a
               className="btn btn-success"
@@ -893,6 +902,7 @@ exports[`should set contact number on input change 1`] = `
         >
           <div
             className="col-4"
+            key="Github"
           >
             <a
               className="btn btn-warning"
@@ -910,6 +920,7 @@ exports[`should set contact number on input change 1`] = `
           </div>
           <div
             className="col-4"
+            key="LinkedIn"
           >
             <a
               className="btn btn-info"
@@ -927,6 +938,7 @@ exports[`should set contact number on input change 1`] = `
           </div>
           <div
             className="col-4"
+            key="Resume"
           >
             <a
               className="btn btn-success"
@@ -1175,6 +1187,7 @@ exports[`should set email on input change 1`] = `
         >
           <div
             className="col-4"
+            key="Github"
           >
             <a
               className="btn btn-warning"
@@ -1192,6 +1205,7 @@ exports[`should set email on input change 1`] = `
           </div>
           <div
             className="col-4"
+            key="LinkedIn"
           >
             <a
               className="btn btn-info"
@@ -1209,6 +1223,7 @@ exports[`should set email on input change 1`] = `
           </div>
           <div
             className="col-4"
+            key="Resume"
           >
             <a
               className="btn btn-success"
@@ -1457,6 +1472,7 @@ exports[`should set first name on input change 1`] = `
         >
           <div
             className="col-4"
+            key="Github"
           >
             <a
               className="btn btn-warning"
@@ -1474,6 +1490,7 @@ exports[`should set first name on input change 1`] = `
           </div>
           <div
             className="col-4"
+            key="LinkedIn"
           >
             <a
               className="btn btn-info"
@@ -1491,6 +1508,7 @@ exports[`should set first name on input change 1`] = `
           </div>
           <div
             className="col-4"
+            key="Resume"
           >
             <a
               className="btn btn-success"
@@ -1739,6 +1757,7 @@ exports[`should set last name on input change 1`] = `
         >
           <div
             className="col-4"
+            key="Github"
           >
             <a
               className="btn btn-warning"
@@ -1756,6 +1775,7 @@ exports[`should set last name on input change 1`] = `
           </div>
           <div
             className="col-4"
+            key="LinkedIn"
           >
             <a
               className="btn btn-info"
@@ -1773,6 +1793,7 @@ exports[`should set last name on input change 1`] = `
           </div>
           <div
             className="col-4"
+            key="Resume"
           >
             <a
               className="btn btn-success"
@@ -2021,6 +2042,7 @@ exports[`should set message on input change 1`] = `
         >
           <div
             className="col-4"
+            key="Github"
           >
             <a
               className="btn btn-warning"
@@ -2038,6 +2060,7 @@ exports[`should set message on input change 1`] = `
           </div>
           <div
             className="col-4"
+            key="LinkedIn"
           >
             <a
               className="btn btn-info"
@@ -2055,6 +2078,7 @@ exports[`should set message on input change 1`] = `
           </div>
           <div
             className="col-4"
+            key="Resume"
           >
             <a
               className="btn btn-success"

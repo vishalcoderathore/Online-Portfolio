@@ -32,44 +32,7 @@ exports[`should render portfolio education page correctly 1`] = `
     >
       <div
         className="col-md-6 pt-5 px-2"
-      >
-        <div
-          className="card education"
-        >
-          <div
-            className="card-body bg-light"
-          >
-            <h4
-              className="card-title"
-            >
-              Master of Science
-            </h4>
-            <small
-              className="text-muted"
-            >
-              2017 - Current
-            </small>
-            <hr />
-            <p
-              className="card-text education--degree"
-            >
-              M.S. in Software Engineering
-            </p>
-            <p
-              className="card-text"
-            >
-              University of Minnesota, Minneapolis, MN
-            </p>
-            <p
-              className="card-text"
-            >
-              Cumulative GPA: 3.88 / 4.0
-            </p>
-          </div>
-        </div>
-      </div>
-      <div
-        className="col-md-6 pt-5 px-2"
+        key="Bachelor of Science"
       >
         <div
           className="card education"
@@ -101,7 +64,50 @@ exports[`should render portfolio education page correctly 1`] = `
             <p
               className="card-text"
             >
-              Cumulative GPA: 3.0 / 4.0
+              Cumulative GPA: 
+              3.0
+               / 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-6 pt-5 px-2"
+        key="Master of Science"
+      >
+        <div
+          className="card education"
+        >
+          <div
+            className="card-body bg-light"
+          >
+            <h4
+              className="card-title"
+            >
+              Master of Science
+            </h4>
+            <small
+              className="text-muted"
+            >
+              2017 - Current
+            </small>
+            <hr />
+            <p
+              className="card-text education--degree"
+            >
+              M.S. in Software Engineering
+            </p>
+            <p
+              className="card-text"
+            >
+              University of Minnesota, Minnesota, MN
+            </p>
+            <p
+              className="card-text"
+            >
+              Cumulative GPA: 
+              3.82
+               / 4.0
             </p>
           </div>
         </div>
@@ -261,7 +267,9 @@ exports[`should render portfolio education page correctly 1`] = `
                       id="java"
                       target="_blank"
                     >
-                       View 
+                       
+                      View
+                       
                     </a>
                   </td>
                 </tr>

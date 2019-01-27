@@ -2,27 +2,9 @@ import React from 'react';
 import PortfolioProjects_Modals from './PortfolioProjects_Modals';
 import GithubList from './GithubList';
 import _ from 'lodash';
+import { projectImages } from '../resources/projectSources';
 
 const PortfolioProjects = () => {
-  const projectImages = [
-    {
-      src: '/images/ifeedback.png',
-      href: '#project-1'
-    },
-    {
-      src: '/images/forkify.png',
-      href: '#project-2'
-    },
-    {
-      src: '/images/expensify.png',
-      href: '#project-3'
-    },
-    {
-      src: '/images/portfolio.png',
-      href: '#project-4'
-    }
-  ];
-
   const listProjects = _.map(projectImages, ({ src, href }) => {
     return (
       <div className='col-md-3 pb-3' key={href}>

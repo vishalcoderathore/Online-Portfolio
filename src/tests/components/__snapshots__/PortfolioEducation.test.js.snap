@@ -151,7 +151,31 @@ exports[`should render portfolio education page correctly 1`] = `
                 </tr>
               </thead>
               <tbody>
-                <tr>
+                <tr
+                  key="fullstack"
+                >
+                  <td>
+                    Node with React - Full Stack
+                  </td>
+                  <td
+                    className="d-none d-md-block"
+                  >
+                    2019
+                  </td>
+                  <td>
+                    <a
+                      className="btn btn-outline-danger"
+                      href="https://drive.google.com/file/d/1Nvel8oUSAuut2K0MoDDx3QKsuFYYN9M6/view?usp=sharing"
+                      id="fullstack"
+                      target="_blank"
+                    >
+                      View
+                    </a>
+                  </td>
+                </tr>
+                <tr
+                  key="google-dev-challange"
+                >
                   <td>
                     Google Developer Challenge Scholarship
                   </td>
@@ -171,7 +195,9 @@ exports[`should render portfolio education page correctly 1`] = `
                     </a>
                   </td>
                 </tr>
-                <tr>
+                <tr
+                  key="nginx"
+                >
                   <td>
                     Nginx Beginner to Advanced Course
                   </td>
@@ -191,67 +217,9 @@ exports[`should render portfolio education page correctly 1`] = `
                     </a>
                   </td>
                 </tr>
-                <tr>
-                  <td>
-                    React Web Developer
-                  </td>
-                  <td
-                    className="d-none d-md-block"
-                  >
-                    2018
-                  </td>
-                  <td>
-                    <a
-                      className="btn btn-outline-danger"
-                      href="https://drive.google.com/open?id=1AWDaKR90yXo_hxU8XXzjdS2zDAxIkhzL"
-                      id="react"
-                      target="_blank"
-                    >
-                      View
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Bootstrap 4 Course
-                  </td>
-                  <td
-                    className="d-none d-md-block"
-                  >
-                    2017
-                  </td>
-                  <td>
-                    <a
-                      className="btn btn-outline-danger"
-                      href="https://drive.google.com/open?id=17C1JdIvJBhO4y9IbWgVgYw5WIONHzrfi"
-                      id="bootstrap"
-                      target="_blank"
-                    >
-                      View
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Command Line Essentials
-                  </td>
-                  <td
-                    className="d-none d-md-block"
-                  >
-                    2017
-                  </td>
-                  <td>
-                    <a
-                      className="btn btn-outline-danger"
-                      href="https://drive.google.com/open?id=1ql0Ra_fhSx1_YwGa-rQ1vsk2BZG1QONo"
-                      id="git"
-                      target="_blank"
-                    >
-                      View
-                    </a>
-                  </td>
-                </tr>
-                <tr>
+                <tr
+                  key="java"
+                >
                   <td>
                     Oracle Certified Professional, Java SE 6 Programmer
                   </td>
@@ -267,9 +235,7 @@ exports[`should render portfolio education page correctly 1`] = `
                       id="java"
                       target="_blank"
                     >
-                       
                       View
-                       
                     </a>
                   </td>
                 </tr>

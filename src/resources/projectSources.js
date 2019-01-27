@@ -25,7 +25,7 @@ export const modalDetails = [
     mutedText: 'Create Surveys for your Clients',
     href: 'https://ifeedback-emails.herokuapp.com',
     projectInfo: [
-      'React App used to create Surveys and send them to single/multiple email addresses.',
+      'Full Stack App using Mern Stack used to create Surveys and send them to single/multiple email addresses.',
       'App uses SendGrid API to create emails, Stripe API to mock payments which are required to purchase credits. These credits are used to create Surveys.',
       'Track all sent Surveys and monitor responses.'
     ],

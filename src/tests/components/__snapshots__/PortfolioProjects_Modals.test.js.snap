@@ -71,7 +71,7 @@ exports[`should render portfolio work correctly 1`] = `
           <p
             key="0"
           >
-            React App used to create Surveys and send them to single/multiple email addresses.
+            Full Stack App using Mern Stack used to create Surveys and send them to single/multiple email addresses.
           </p>
           <p
             key="1"

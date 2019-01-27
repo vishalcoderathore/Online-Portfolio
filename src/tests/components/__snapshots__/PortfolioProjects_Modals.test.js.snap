@@ -7,6 +7,7 @@ exports[`should render portfolio work correctly 1`] = `
     aria-labelledby="project-1-Label"
     className="modal fade"
     id="project-1"
+    key="project-1"
     role="dialog"
     tabIndex="-1"
   >
@@ -23,6 +24,266 @@ exports[`should render portfolio work correctly 1`] = `
           <h5
             className="modal-title"
             id="project-1-Label"
+          >
+            iFeedback
+          </h5>
+          <button
+            aria-label="Close"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+            >
+              ×
+            </span>
+          </button>
+        </div>
+        <div
+          className="modal-body text-left"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-9"
+            >
+               
+              <p
+                className="text-muted"
+              >
+                Create Surveys for your Clients
+              </p>
+            </div>
+            <div
+              className="col-3"
+            >
+              <a
+                className="btn btn-outline-info"
+                href="https://ifeedback-emails.herokuapp.com"
+                target="_blank"
+              >
+                Demo
+              </a>
+            </div>
+          </div>
+          <p
+            key="0"
+          >
+            React App used to create Surveys and send them to single/multiple email addresses.
+          </p>
+          <p
+            key="1"
+          >
+            App uses SendGrid API to create emails, Stripe API to mock payments which are required to purchase credits. These credits are used to create Surveys.
+          </p>
+          <p
+            key="2"
+          >
+            Track all sent Surveys and monitor responses.
+          </p>
+          <p>
+            App is built using the following tech stack :
+          </p>
+          <ul>
+            <li
+              key="0"
+            >
+              Axios
+            </li>
+            <li
+              key="1"
+            >
+              Express
+            </li>
+            <li
+              key="2"
+            >
+              Font Awesome
+            </li>
+            <li
+              key="3"
+            >
+              Heroku
+            </li>
+            <li
+              key="4"
+            >
+              Google OAuth
+            </li>
+            <li
+              key="5"
+            >
+              Materialize CSS
+            </li>
+            <li
+              key="6"
+            >
+              Mongo DB
+            </li>
+            <li
+              key="7"
+            >
+              React.JS
+            </li>
+            <li
+              key="8"
+            >
+              Redux State Management
+            </li>
+            <li
+              key="9"
+            >
+              SendGrid API
+            </li>
+            <li
+              key="10"
+            >
+              Stripe Payment API
+            </li>
+            <li
+              key="11"
+            >
+              App is developed with Prod and Dev environments
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    aria-hidden="true"
+    aria-labelledby="project-2-Label"
+    className="modal fade"
+    id="project-2"
+    key="project-2"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog"
+      role="document"
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <h5
+            className="modal-title"
+            id="project-2-Label"
+          >
+            Recipe Finder
+          </h5>
+          <button
+            aria-label="Close"
+            className="close"
+            data-dismiss="modal"
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+            >
+              ×
+            </span>
+          </button>
+        </div>
+        <div
+          className="modal-body text-left"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-9"
+            >
+               
+              <p
+                className="text-muted"
+              >
+                Search your favorite recipes online
+              </p>
+            </div>
+            <div
+              className="col-3"
+            >
+              <a
+                className="btn btn-outline-info"
+                href="http://forkify-search-recipes.herokuapp.com/"
+                target="_blank"
+              >
+                Demo
+              </a>
+            </div>
+          </div>
+          <p
+            key="0"
+          >
+            Web App using JavaScript to search your favorite recipes online. You can search for recipes by typing a query to get a list of items that use the query item, select a recipe to display the details of it.
+          </p>
+          <p>
+            App is built using the following tech stack :
+          </p>
+          <ul>
+            <li
+              key="0"
+            >
+              Axios
+            </li>
+            <li
+              key="1"
+            >
+              Babel
+            </li>
+            <li
+              key="2"
+            >
+              Express
+            </li>
+            <li
+              key="3"
+            >
+              Heroku
+            </li>
+            <li
+              key="4"
+            >
+              Node.js
+            </li>
+            <li
+              key="5"
+            >
+              Webpack
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    aria-hidden="true"
+    aria-labelledby="project-3-Label"
+    className="modal fade"
+    id="project-3"
+    key="project-3"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog"
+      role="document"
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <h5
+            className="modal-title"
+            id="project-3-Label"
           >
             Expensify
           </h5>
@@ -52,7 +313,7 @@ exports[`should render portfolio work correctly 1`] = `
               <p
                 className="text-muted"
               >
-                Track your expenses anytime anywhere.
+                Track your expenses anytime anywhere
               </p>
             </div>
             <div
@@ -67,247 +328,69 @@ exports[`should render portfolio work correctly 1`] = `
               </a>
             </div>
           </div>
-          <p>
+          <p
+            key="0"
+          >
             Web App using React.JS that is used to track your expenses. You can add, view, modify and remove your expenses.
           </p>
-          <p>
+          <p
+            key="1"
+          >
             Login using your Google Account. Click on Add Expense to add any new expense. Click on existing expese to either Update or Remove the expense. Click the app logo to reach the dashboard page.
           </p>
           <p>
             App is built using the following tech stack :
           </p>
           <ul>
-            <li>
+            <li
+              key="0"
+            >
               Babel
             </li>
-            <li>
+            <li
+              key="1"
+            >
               Enzyme
             </li>
-            <li>
+            <li
+              key="2"
+            >
               Express
             </li>
-            <li>
-              Firebase (database and authentication)
+            <li
+              key="3"
+            >
+              Firebase (database & authtication)
             </li>
-            <li>
+            <li
+              key="4"
+            >
               Font Awesome
             </li>
-            <li>
+            <li
+              key="5"
+            >
               Heroku
             </li>
-            <li>
+            <li
+              key="6"
+            >
               Jest
             </li>
-            <li>
-              Live Server
+            <li
+              key="7"
+            >
+              Node.js
             </li>
-            <li>
-              Moment
-            </li>
-            <li>
-              Normalize.CSS
-            </li>
-            <li>
+            <li
+              key="8"
+            >
               Redux
             </li>
-            <li>
-              SCSS
-            </li>
-            <li>
+            <li
+              key="9"
+            >
               Webpack
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    aria-hidden="true"
-    aria-labelledby="project-2-Label"
-    className="modal fade"
-    id="project-2"
-    role="dialog"
-    tabIndex="-1"
-  >
-    <div
-      className="modal-dialog"
-      role="document"
-    >
-      <div
-        className="modal-content"
-      >
-        <div
-          className="modal-header"
-        >
-          <h5
-            className="modal-title"
-            id="project-1-Label"
-          >
-            Product Marketing Site
-          </h5>
-          <button
-            aria-label="Close"
-            className="close"
-            data-dismiss="modal"
-            type="button"
-          >
-            <span
-              aria-hidden="true"
-            >
-              ×
-            </span>
-          </button>
-        </div>
-        <div
-          className="modal-body text-left"
-        >
-          <div
-            className="row"
-          >
-            <div
-              className="col-9"
-            >
-               
-              <p
-                className="text-muted"
-              >
-                Site showcasing a product.
-              </p>
-            </div>
-            <div
-              className="col-3"
-            >
-              <a
-                className="btn btn-outline-info"
-                href="http://product.vishalrathore.info/"
-                target="_blank"
-              >
-                Demo
-              </a>
-            </div>
-          </div>
-          <p>
-            Multi page sample website showcasing mobile phones and sample plans.
-          </p>
-          <p>
-            App is built using the following tech stack :
-          </p>
-          <ul>
-            <li>
-              Bootstrap 4
-            </li>
-            <li>
-              Gulp
-            </li>
-            <li>
-              JQuery
-            </li>
-            <li>
-              Popper.JS
-            </li>
-            <li>
-              SASS
-            </li>
-            <li>
-              Font Awesome
-            </li>
-            <li>
-              Amazon Web Services (AWS) S3
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    aria-hidden="true"
-    aria-labelledby="project-3-Label"
-    className="modal fade"
-    id="project-3"
-    role="dialog"
-    tabIndex="-1"
-  >
-    <div
-      className="modal-dialog"
-      role="document"
-    >
-      <div
-        className="modal-content"
-      >
-        <div
-          className="modal-header"
-        >
-          <h5
-            className="modal-title"
-            id="project-1-Label"
-          >
-            Indecision
-          </h5>
-          <button
-            aria-label="Close"
-            className="close"
-            data-dismiss="modal"
-            type="button"
-          >
-            <span
-              aria-hidden="true"
-            >
-              ×
-            </span>
-          </button>
-        </div>
-        <div
-          className="modal-body text-left"
-        >
-          <div
-            className="row"
-          >
-            <div
-              className="col-9"
-            >
-               
-              <p
-                className="text-muted"
-              >
-                Web App that makes decisions for you. You can add, view, and remove your tasks/options.
-              </p>
-            </div>
-            <div
-              className="col-3"
-            >
-              <a
-                className="btn btn-outline-info"
-                href="http://indecisionapp.herokuapp.com/"
-                target="_blank"
-              >
-                Demo
-              </a>
-            </div>
-          </div>
-          <p>
-            Basic App that takes in user inputs and stores in an state array. Then prints out an element in a random fashion.
-          </p>
-          <p>
-            Click on Add Option to add a new option. You can add multiple options or just stick to one. Upon addition of an option, the "What should I do?" button gets unlocked and becomes clickable. When the button is clicked, the app would choose an option for you from the provided options.You can remove "a" option or can also remove all the options at once. The app is also responsive and so would run on your mobile devices as well.
-          </p>
-          <p>
-            App is built using the following tech stack :
-          </p>
-          <ul>
-            <li>
-              Babel
-            </li>
-            <li>
-              Express
-            </li>
-            <li>
-              React v15.6.1
-            </li>
-            <li>
-              Webpack v3.1.0
-            </li>
-            <li>
-              Heroku
             </li>
           </ul>
         </div>
@@ -319,6 +402,7 @@ exports[`should render portfolio work correctly 1`] = `
     aria-labelledby="project-4-Label"
     className="modal fade"
     id="project-4"
+    key="project-4"
     role="dialog"
     tabIndex="-1"
   >
@@ -334,9 +418,9 @@ exports[`should render portfolio work correctly 1`] = `
         >
           <h5
             className="modal-title"
-            id="project-1-Label"
+            id="project-4-Label"
           >
-            My Portfolio
+            Portfolio
           </h5>
           <button
             aria-label="Close"
@@ -367,49 +451,76 @@ exports[`should render portfolio work correctly 1`] = `
                 You are currently viewing this project
               </p>
             </div>
+            <div
+              className="col-3"
+            >
+              <a
+                className="btn btn-outline-info"
+                href="http://track-expenses.herokuapp.com"
+                target="_blank"
+              >
+                Demo
+              </a>
+            </div>
           </div>
-          <p>
+          <p
+            key="0"
+          >
             Online portfolio showcasing my skills and experience.
           </p>
           <p>
-            Website is built using the following tech stack :
+            App is built using the following tech stack :
           </p>
           <ul>
-            <li>
+            <li
+              key="0"
+            >
               Babel
             </li>
-            <li>
-              Express
-            </li>
-            <li>
+            <li
+              key="1"
+            >
               Enzyme
             </li>
-            <li>
+            <li
+              key="2"
+            >
+              Express
+            </li>
+            <li
+              key="3"
+            >
               Font Awesome
             </li>
-            <li>
-              React v16
+            <li
+              key="4"
+            >
+              React
             </li>
-            <li>
-              SASS
+            <li
+              key="5"
+            >
+              AWS - IAM
             </li>
-            <li>
-              Webpack v3.1.0
+            <li
+              key="6"
+            >
+              AWS - Route 53 & DNS
             </li>
-            <li>
-              Amazon Web Services - IAM
+            <li
+              key="7"
+            >
+              AWS - CloudFront & SSL
             </li>
-            <li>
-              Amazon Web Services - Route 53 & DNS
+            <li
+              key="8"
+            >
+              AWS - CodeBuild & Code Pipeline
             </li>
-            <li>
-              Amazon Web Services - CloudFront & SSL
-            </li>
-            <li>
-              Amazon Web Services - CodeBuild & CodePipeline
-            </li>
-            <li>
-              Amazon Web Services - AWS Lambda
+            <li
+              key="9"
+            >
+              AWS - Lambda Functions
             </li>
           </ul>
         </div>

@@ -83,7 +83,7 @@ export const modalDetails = [
     labelId: 'project-4-Label',
     title: 'Portfolio',
     mutedText: 'You are currently viewing this project',
-    href: 'http://track-expenses.herokuapp.com',
+    href: 'https://portfolio.vishalrathore.info',
     projectInfo: ['Online portfolio showcasing my skills and experience.'],
     appStack: [
       'Babel',

@@ -1,83 +1,92 @@
 .intro--header {
-    font-family: 'Dosis', Times, serif;
-    color: $dark-blue;
-    border-bottom: solid 1px $border-bottom;
+  font-family: 'Dosis', Times, serif;
+  color: $dark-blue;
+  border-bottom: solid 1px $border-bottom;
+}
+
+.item--heading {
+  font-family: 'Dosis', Times, serif;
+  color: $dark-blue;
 }
 
 .intro--desc {
-    font-family: 'Encode Sans Semi Expanded', sans-serif;
-    font-weight: 400;
-    text-align: left;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-weight: 400;
+  text-align: left;
 }
 
 .progressInfo1 {
-    width:60%; 
-    background: $progressInfo-red;
+  width: 60%;
+  background: $progressInfo-red;
 }
 
 .progressInfo2 {
-    width:70%; 
-    background:$progressInfo-green;
+  width: 70%;
+  background: $progressInfo-green;
 }
 
 .progressInfo3 {
-    width:85%; 
-    background:$progressInfo-purple;
+  width: 85%;
+  background: $progressInfo-purple;
 }
 
 .progressInfo4 {
-    width:75%; 
-    background:$progressInfo-yellow;
+  width: 75%;
+  background: $progressInfo-yellow;
 }
 .progressInfo5 {
-    width:70%; 
-    background:$aqua-blue;
+  width: 70%;
+  background: $aqua-blue;
 }
 
-.progress-title{
-    font-family: 'Encode Sans Semi Expanded', sans-serif;
-    font-weight: 400;
-    text-align: right;
-    margin: 0 0 20px;
+.progress-title {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-weight: 400;
+  text-align: right;
+  margin: 0 0 20px;
 }
 
-.progress{
-    height: 10px;
-    background: #333;
-    border-radius: 0;
-    box-shadow: none;
-    margin-bottom: 30px;
-    overflow: visible;
+.progress {
+  height: 10px;
+  background: #333;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 30px;
+  overflow: visible;
 }
-.progress .progress-bar{
-    position: relative;
-    -webkit-animation: animate-positive 2s;
-    animation: animate-positive 2s;
+.progress .progress-bar {
+  position: relative;
+  -webkit-animation: animate-positive 2s;
+  animation: animate-positive 2s;
 }
-.progress .progress-bar:after{
-    content: "";
-    display: inline-block;
-    width: 9px;
-    background: #fff;
-    position: absolute;
-    top: -10px;
-    bottom: -10px;
-    right: -1px;
-    z-index: 1;
-    transform: rotate(35deg);
+.progress .progress-bar:after {
+  content: '';
+  display: inline-block;
+  width: 9px;
+  background: #fff;
+  position: absolute;
+  top: -10px;
+  bottom: -10px;
+  right: -1px;
+  z-index: 1;
+  transform: rotate(35deg);
 }
-.progress .progress-value{
-    display: block;
-    font-size: 16px;
-    font-weight: 600;
-    color: #333;
-    position: absolute;
-    top: -30px;
-    right: -25px;
+.progress .progress-value {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  position: absolute;
+  top: -30px;
+  right: -25px;
 }
-@-webkit-keyframes animate-positive{
-    0%{ width: 0; }
+@-webkit-keyframes animate-positive {
+  0% {
+    width: 0;
+  }
 }
 @keyframes animate-positive {
-    0%{ width: 0; }
+  0% {
+    width: 0;
+  }
 }

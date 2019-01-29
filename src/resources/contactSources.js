@@ -12,7 +12,7 @@ export const contactPlatformLinks = {
     iconClassName: 'fa fa-linkedin fa-2x'
   },
   Resume: {
-    href: 'https://drive.google.com/open?id=1UO9d3fgaZTygDEWwVaa3mlnDp46vJ0f3',
+    href: 'https://drive.google.com/open?id=1smROyQczUqgWfIjVBFjTkk2SQMUJnGib',
     className: 'btn btn-success',
     title: 'Resume',
     iconClassName: 'fa fa-id-badge fa-2x'

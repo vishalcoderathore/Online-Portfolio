@@ -80,7 +80,7 @@ const PortfolioWork = () => {
   }
 
   return (
-    <section className='py-5 text-center bg-light' id='myWork'>
+    <section className='py-5 px-2 text-center bg-light' id='myWork'>
       <div className='container'>
         <div className='row'>
           <div className='col'>

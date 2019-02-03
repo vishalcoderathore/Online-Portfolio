@@ -170,7 +170,7 @@ class PortfolioContactForm extends React.Component {
           </div>
           <div className='row mb-4'>
             <div className='col-md-6 text-center py-2'>
-              <h4>Find me here</h4>
+              <p>Find me here</p>
             </div>
             <div className='col-md-6 py-2'>
               <div className='row'>{this.renderContact()}</div>
@@ -182,9 +182,9 @@ class PortfolioContactForm extends React.Component {
               <div className='card'>
                 <div className='card-body p-4'>
                   <form id='submitForm' onSubmit={this.onSubmit}>
-                    <h5 className='text-center'>
-                      Please fill out this form to contact me
-                    </h5>
+                    <p className='text-center'>
+                      Please fill this form to contact me
+                    </p>
                     {this.state.error && <ErrorPopup />}
                     {this.state.submitStatus && <SuccessPopup />}
                     <hr />
@@ -260,7 +260,7 @@ class PortfolioContactForm extends React.Component {
                           </div>
                           <textarea
                             className='form-control'
-                            placeholder='Message'
+                            placeholder='Hi Vishal...'
                             id='msg-area'
                             onChange={this.onMessageChange}
                           />

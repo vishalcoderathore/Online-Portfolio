@@ -1,24 +1,26 @@
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 button:disabled {
-    cursor: not-allowed;
+  cursor: not-allowed;
 }
 
 .is-active {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 body {
-    font-family: 'Encode Sans Semi Expanded', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    line-height: 1.6rem;
+  //font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.6rem;
+  font-size: 18px;
+  color: $dark-blue;
 }

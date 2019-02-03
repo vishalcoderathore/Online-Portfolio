@@ -33,9 +33,9 @@ exports[`should render error message on invalid form submit 1`] = `
       <div
         className="col-md-6 text-center py-2"
       >
-        <h4>
+        <p>
           Find me here
-        </h4>
+        </p>
       </div>
       <div
         className="col-md-6 py-2"
@@ -116,11 +116,11 @@ exports[`should render error message on invalid form submit 1`] = `
               id="submitForm"
               onSubmit={[Function]}
             >
-              <h5
+              <p
                 className="text-center"
               >
-                Please fill out this form to contact me
-              </h5>
+                Please fill this form to contact me
+              </p>
               <ErrorPopup />
               <hr />
               <div
@@ -240,7 +240,7 @@ exports[`should render error message on invalid form submit 1`] = `
                       className="form-control"
                       id="msg-area"
                       onChange={[Function]}
-                      placeholder="Message"
+                      placeholder="Hi Vishal..."
                     />
                   </div>
                 </div>
@@ -319,9 +319,9 @@ exports[`should render footer correctly 1`] = `
       <div
         className="col-md-6 text-center py-2"
       >
-        <h4>
+        <p>
           Find me here
-        </h4>
+        </p>
       </div>
       <div
         className="col-md-6 py-2"
@@ -402,11 +402,11 @@ exports[`should render footer correctly 1`] = `
               id="submitForm"
               onSubmit={[Function]}
             >
-              <h5
+              <p
                 className="text-center"
               >
-                Please fill out this form to contact me
-              </h5>
+                Please fill this form to contact me
+              </p>
               <hr />
               <div
                 className="row"
@@ -525,7 +525,7 @@ exports[`should render footer correctly 1`] = `
                       className="form-control"
                       id="msg-area"
                       onChange={[Function]}
-                      placeholder="Message"
+                      placeholder="Hi Vishal..."
                     />
                   </div>
                 </div>
@@ -604,9 +604,9 @@ exports[`should render success message on valid form submit 1`] = `
       <div
         className="col-md-6 text-center py-2"
       >
-        <h4>
+        <p>
           Find me here
-        </h4>
+        </p>
       </div>
       <div
         className="col-md-6 py-2"
@@ -687,11 +687,11 @@ exports[`should render success message on valid form submit 1`] = `
               id="submitForm"
               onSubmit={[Function]}
             >
-              <h5
+              <p
                 className="text-center"
               >
-                Please fill out this form to contact me
-              </h5>
+                Please fill this form to contact me
+              </p>
               <SuccessPopup />
               <hr />
               <div
@@ -811,7 +811,7 @@ exports[`should render success message on valid form submit 1`] = `
                       className="form-control"
                       id="msg-area"
                       onChange={[Function]}
-                      placeholder="Message"
+                      placeholder="Hi Vishal..."
                     />
                   </div>
                 </div>
@@ -890,9 +890,9 @@ exports[`should set contact number on input change 1`] = `
       <div
         className="col-md-6 text-center py-2"
       >
-        <h4>
+        <p>
           Find me here
-        </h4>
+        </p>
       </div>
       <div
         className="col-md-6 py-2"
@@ -973,11 +973,11 @@ exports[`should set contact number on input change 1`] = `
               id="submitForm"
               onSubmit={[Function]}
             >
-              <h5
+              <p
                 className="text-center"
               >
-                Please fill out this form to contact me
-              </h5>
+                Please fill this form to contact me
+              </p>
               <hr />
               <div
                 className="row"
@@ -1096,7 +1096,7 @@ exports[`should set contact number on input change 1`] = `
                       className="form-control"
                       id="msg-area"
                       onChange={[Function]}
-                      placeholder="Message"
+                      placeholder="Hi Vishal..."
                     />
                   </div>
                 </div>
@@ -1175,9 +1175,9 @@ exports[`should set email on input change 1`] = `
       <div
         className="col-md-6 text-center py-2"
       >
-        <h4>
+        <p>
           Find me here
-        </h4>
+        </p>
       </div>
       <div
         className="col-md-6 py-2"
@@ -1258,11 +1258,11 @@ exports[`should set email on input change 1`] = `
               id="submitForm"
               onSubmit={[Function]}
             >
-              <h5
+              <p
                 className="text-center"
               >
-                Please fill out this form to contact me
-              </h5>
+                Please fill this form to contact me
+              </p>
               <hr />
               <div
                 className="row"
@@ -1381,7 +1381,7 @@ exports[`should set email on input change 1`] = `
                       className="form-control"
                       id="msg-area"
                       onChange={[Function]}
-                      placeholder="Message"
+                      placeholder="Hi Vishal..."
                     />
                   </div>
                 </div>
@@ -1460,9 +1460,9 @@ exports[`should set first name on input change 1`] = `
       <div
         className="col-md-6 text-center py-2"
       >
-        <h4>
+        <p>
           Find me here
-        </h4>
+        </p>
       </div>
       <div
         className="col-md-6 py-2"
@@ -1543,11 +1543,11 @@ exports[`should set first name on input change 1`] = `
               id="submitForm"
               onSubmit={[Function]}
             >
-              <h5
+              <p
                 className="text-center"
               >
-                Please fill out this form to contact me
-              </h5>
+                Please fill this form to contact me
+              </p>
               <hr />
               <div
                 className="row"
@@ -1666,7 +1666,7 @@ exports[`should set first name on input change 1`] = `
                       className="form-control"
                       id="msg-area"
                       onChange={[Function]}
-                      placeholder="Message"
+                      placeholder="Hi Vishal..."
                     />
                   </div>
                 </div>
@@ -1745,9 +1745,9 @@ exports[`should set last name on input change 1`] = `
       <div
         className="col-md-6 text-center py-2"
       >
-        <h4>
+        <p>
           Find me here
-        </h4>
+        </p>
       </div>
       <div
         className="col-md-6 py-2"
@@ -1828,11 +1828,11 @@ exports[`should set last name on input change 1`] = `
               id="submitForm"
               onSubmit={[Function]}
             >
-              <h5
+              <p
                 className="text-center"
               >
-                Please fill out this form to contact me
-              </h5>
+                Please fill this form to contact me
+              </p>
               <hr />
               <div
                 className="row"
@@ -1951,7 +1951,7 @@ exports[`should set last name on input change 1`] = `
                       className="form-control"
                       id="msg-area"
                       onChange={[Function]}
-                      placeholder="Message"
+                      placeholder="Hi Vishal..."
                     />
                   </div>
                 </div>
@@ -2030,9 +2030,9 @@ exports[`should set message on input change 1`] = `
       <div
         className="col-md-6 text-center py-2"
       >
-        <h4>
+        <p>
           Find me here
-        </h4>
+        </p>
       </div>
       <div
         className="col-md-6 py-2"
@@ -2113,11 +2113,11 @@ exports[`should set message on input change 1`] = `
               id="submitForm"
               onSubmit={[Function]}
             >
-              <h5
+              <p
                 className="text-center"
               >
-                Please fill out this form to contact me
-              </h5>
+                Please fill this form to contact me
+              </p>
               <hr />
               <div
                 className="row"
@@ -2236,7 +2236,7 @@ exports[`should set message on input change 1`] = `
                       className="form-control"
                       id="msg-area"
                       onChange={[Function]}
-                      placeholder="Message"
+                      placeholder="Hi Vishal..."
                     />
                   </div>
                 </div>

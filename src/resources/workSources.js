@@ -3,7 +3,7 @@ export const work = [
     workId: 'work1',
     organization: 'Multi-Tech Systems',
     position: 'Software Engineer',
-    duration: '06-2018',
+    duration: '06-2018 - Present',
     location: 'Minneapolis, MN',
     description:
       'Migrating Node-Red from existing Conduits (Routers) to the AWS Cloud infrastructure to provide improved data processing and systems engineering capabilities on the IoT devices. Developed web app using MERN stack deployed behind Nginx server for path based routing to Node-Red docker containers.',

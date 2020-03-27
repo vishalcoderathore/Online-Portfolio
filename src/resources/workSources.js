@@ -6,13 +6,13 @@ export const work = [
     duration: '06-2019 - Present',
     location: 'Minneapolis, MN',
     description:
-      'Administers and develop code on Cloud Infrastructure using Amazon Web Services. Build, test and maintain our software product i.e. Enterprise LENS to track and confiugre gateway devices and end devices. Create project documentation using Confluence and track projects using Jira.',
+      'Administers and develop code on Cloud Infrastructure using Amazon Web Services. Build, test and maintain our software product i.e. Enterprise LENS to track and configure gateway devices and end devices. Create project documentation using Confluence and track projects using Jira.',
     details: [
-      'Develop and maintain project stacks using Cloudformation.',
-      'Upgrade CF scripts to update specific resources and deploy web application for high availability.',
-      'Wrote Shell Scripts to perform cost analysis of our cloud infrastructure using AWS Cost Explorer API',
+      'Create, upgrade and maintain project stacks using Cloudformation for our customers.',
+      'Upgrade CF scripts to update specific resources and deploy web application for high availability and resilience.',
+      'Wrote Shell Scripts to perform cost analysis of our cloud infrastructure using AWS Cost Explorer API and display over Kibana',
       'Upgraded and deployed ElasticSearch Stack with Kibana to centralize server logs into dashboards',
-      'Work on Vue.JS with Vuetify on our enterprise software solution to configure and maintain IoT devices. '
+      'Work with Vue.JS and Vuetify on our enterprise software solution to configure and maintain IoT devices. '
     ]
   },
   {

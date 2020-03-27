@@ -15,7 +15,7 @@ exports[`should render portfolio work correctly 1`] = `
         className="col"
       >
         <p>
-          Copyright © 2019 | All Rights Reserved | Vishal Singh Rathore Online Portfolio
+          Copyright © 2020 | All Rights Reserved | Vishal Singh Rathore Online Portfolio
         </p>
       </div>
     </div>

@@ -8,7 +8,7 @@ export const collegeEducation = [
   },
   {
     degreeLevel: 'Master of Science',
-    graduation: '2017 - Current',
+    graduation: '2019',
     major: 'M.S. in Software Engineering',
     university: 'University of Minnesota, Minnesota, MN',
     cgpa: '3.82'

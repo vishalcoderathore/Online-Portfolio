@@ -89,7 +89,7 @@ exports[`should render portfolio education page correctly 1`] = `
             <small
               className="text-muted"
             >
-              2017 - Current
+              2019
             </small>
             <hr />
             <p

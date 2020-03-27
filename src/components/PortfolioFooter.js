@@ -6,7 +6,7 @@ const PortfolioFooter = () => (
       <div className='row'>
         <div className='col'>
           <p>
-            Copyright © 2019 | All Rights Reserved | Vishal Singh Rathore Online
+            Copyright © 2020 | All Rights Reserved | Vishal Singh Rathore Online
             Portfolio
           </p>
         </div>

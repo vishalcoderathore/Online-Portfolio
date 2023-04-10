@@ -17,15 +17,15 @@ export default function Hero({}: Props) {
     delaySpeed: 2000,
   });
   return (
-    <div className='h-screen flex flex-col space-y-5 items-center justify-center text-center overflow-hidden'>
+    <div className='h-screen flex flex-col items-center justify-center text-center overflow-hidden'>
       <BackgroundCircles />
       <img
-        className='relative rounded-full mx-auto object-cover object-center h-56 w-56'
+        className='relative rounded-full mx-auto object-cover object-center xs:h-32 xs:w-32 sm:h-56 sm:w-56'
         src='/images/landing_image.jpg'
         alt=''
       />
       <div className='z-20'>
-        <h2 className='text-sm uppercase text-gray-500 tracking-[15px]'>
+        <h2 className='text-sm uppercase text-gray-500 tracking-[15px] my-5'>
           Software Engineer
         </h2>
         <h1 className='text-2xl lg:text-4xl font-semibold px-10'>

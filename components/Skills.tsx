@@ -21,21 +21,13 @@ function Skills() {
         Curious about my skill level? Just hover over the skill to find out!
       </h3>
 
-      <div className='grid grid-cols-4 gap-5'>
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+      <div className='grid grid-cols-4 md:grid-cols-6 gap-5'>
+        <Skill directionLeft/>
+        <Skill directionLeft/>
+        <Skill directionLeft/>
+        <Skill directionLeft/>
+        <Skill directionLeft/>
+        <Skill directionLeft/>
         <Skill />
         <Skill />
         <Skill />

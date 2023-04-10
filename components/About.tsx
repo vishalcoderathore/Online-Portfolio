@@ -16,7 +16,7 @@ function About({}: Props) {
         duration: 1.5,
       }}
       className='flex relative h-screen text-center md:text-left max-w-7xl px-5 justify-evenly mx-auto items-center'>
-      <h1 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-1xl sm:text-2xl '>
+      <h1 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl sm:text-2xl '>
         About
       </h1>
 
@@ -38,11 +38,10 @@ function About({}: Props) {
           }}
           src='/images/woods-full.jpg'
           alt=''
-          // TODO xl:w-[500px] xl:h-[600px]
           className=' md:mb-0 flex-shrink-0 rounded-full object-cover md:rounded-lg  xs:w-28 xs:h-28 md:w-64 md:h-96 xs:mb-2'
         />
         <div className='space-y-5 px-0 md:px-10'>
-          <h4 className='text-1xl sm:text-2xl lg:text-3xl font-semibold text-gray-500'>
+          <h4 className='text-xl sm:text-2xl lg:text-3xl font-semibold text-gray-500'>
             Here's a{" "}
             <span className='underline decoration-[#d42d2d]/50'>little</span>{" "}
             background

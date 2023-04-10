@@ -25,7 +25,7 @@ export default function Hero({}: Props) {
         alt=''
       />
       <div className='z-20'>
-        <h2 className='text-sm uppercase text-gray-500 tracking-[15px] my-5'>
+        <h2 className='text-xs sm:text-sm uppercase text-gray-500 tracking-[15px] my-5'>
           Software Engineer
         </h2>
         <h1 className='text-2xl lg:text-4xl font-semibold px-10'>

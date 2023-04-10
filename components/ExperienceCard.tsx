@@ -47,7 +47,7 @@ function ExperienceCard({}: Props) {
       />
 
       <div className='px-0 sm:px-10'>
-        <h4 className='text-1xl lg:text-2xl font-semibold text-gray-500 mt-1'>
+        <h4 className='text-xl lg:text-2xl font-semibold text-gray-500 mt-1'>
           Software Engineer, Cloud Platform
         </h4>
         <p className='font-bold my-1'>Multi-Tech Systems, Inc.</p>

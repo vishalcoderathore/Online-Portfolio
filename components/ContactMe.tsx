@@ -1,5 +1,6 @@
 import React from "react";
-import { EnvelopeIcon } from "@heroicons/react/24/solid";
+import { EnvelopeIcon, ArrowDownTrayIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 
 type Props = {};
 
@@ -21,15 +22,21 @@ function ContactMe({}: Props) {
           </span>
         </h3>
 
-        <div className='space-y-10'>
-          <div className='flex items-center space-x-5 justify-center'>
+        <div className='flex flex-col mx-auto space-y-3'>
+          <div className='flex items-center space-x-5 justify-center max-w-full'>
             <EnvelopeIcon className='text-[#d42d2d] h-7 w-7 animate-pulse' />{" "}
-            <p className='text-2xl'>rathorevsr@tutanota.com</p>
+            <p className='text-lg md:text-xl'>rathorevsr@tutanota.com</p>
+          </div>
+          <div className='flex items-center space-x-5 justify-center max-w-full'>
+            <ArrowDownTrayIcon className='text-[#d42d2d] h-7 w-7 animate-pulse' />{" "}
+            <Link href="https://drive.google.com/open?id=141L7p5IA_XlFnID_B-MBaXJV4C9o1ob_" target='_blank'
+            className='py-1 px-10 rounded-md text-white font text-lg md:text-xl border border-[#d42d2d]/50 hover:bg-[#d42d2d]/90 focus:outline-none'
+          >Download Resume</Link>
           </div>
         </div>
 
         <form className='flex flex-col space-y-2 mx-auto lg:mx-60'>
-          <div className='flex xs:flex-col xs:space-y-2 md:flex-row md:space-x-2 md:space-y-0'>
+          <div className='flex flex-col space-y-2 md:flex-row md:space-x-2 md:space-y-0'>
             <input
               type='text'
               placeholder='Name'

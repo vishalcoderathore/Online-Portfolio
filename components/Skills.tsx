@@ -1,6 +1,7 @@
 import React from "react";
 import Skill from "./Skill";
 import { motion } from "framer-motion";
+import AwsCertificationBadge from "./CertificationBadge";
 
 function Skills() {
   return (
@@ -36,6 +37,7 @@ function Skills() {
         <Skill />
         <Skill />
         <Skill />
+        <AwsCertificationBadge/>
       </div>
     </motion.div>
   );

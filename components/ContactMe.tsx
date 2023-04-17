@@ -94,8 +94,7 @@ function ContactMe({}: Props) {
             <Link
               href='https://drive.google.com/open?id=141L7p5IA_XlFnID_B-MBaXJV4C9o1ob_'
               target='_blank'
-              className='py-1 px-10 rounded-md text-white font text-lg md:text-xl border border-[#d42d2d]/50 hover:bg-[#d42d2d]/90 focus:outline-none'
-            >
+              className='py-1 px-10 rounded-md text-white font text-lg md:text-xl border border-[#d42d2d]/50 hover:bg-[#d42d2d]/90 focus:outline-none'>
               Download Resume
             </Link>
           </div>
@@ -103,8 +102,7 @@ function ContactMe({}: Props) {
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className='flex flex-col space-y-2 mx-auto lg:mx-60'
-        >
+          className='flex flex-col space-y-2 mx-auto lg:mx-60'>
           <div className='flex flex-col space-y-2 md:flex-row md:space-x-2 md:space-y-0'>
             <div className='flex flex-col space-y-1 w-full'>
               <input
@@ -134,14 +132,12 @@ function ContactMe({}: Props) {
           <textarea
             {...register("message", { required: true })}
             className='contactInput'
-            placeholder='Message'
-          ></textarea>
+            placeholder='Message'></textarea>
 
           <button
             type='submit'
             onClick={() => handleErrors(errors)}
-            className='bg-[#d42d2d]/90 py-5 px-10 rounded-md text-white font-bold text-lg'
-          >
+            className='bg-[#d42d2d]/90 py-5 px-10 rounded-md text-white font-bold text-lg'>
             Submit
           </button>
           <ToastContainer

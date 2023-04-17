@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/image";
 import Head from "next/head";
 import { Inter } from "next/font/google";
@@ -13,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className='bg-[#242424] text-white h-screen snap-y snap-mandatory overflow-scroll z-0'>
+    <div className='bg-[#242424] text-white h-screen snap-y snap-mandatory overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#d42d2d]/80'>
       <Head>
         <title>Vishal's Portfolio</title>
       </Head>
@@ -36,18 +37,18 @@ export default function Home() {
       </section>
 
       {/* Skills */}
-      <section id="skills" className="snap-start">
+      <section id='skills' className='snap-start'>
         <Skills />
       </section>
 
       {/* Projects */}
-      <section id="projects" className="snap-start">
-        <Projects/>
+      <section id='projects' className='snap-start'>
+        <Projects />
       </section>
 
       {/* Contact */}
-      <section id="contact" className="snap-start">
-        <ContactMe/>
+      <section id='contact' className='snap-start'>
+        <ContactMe />
       </section>
     </div>
   );

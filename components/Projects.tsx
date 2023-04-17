@@ -17,28 +17,29 @@ function Projects({}: Props) {
       transition={{
         duration: 1.5,
       }}
-      className='h-screen relative flex flex-col md:flex-row text-left overflow-hidden max-w-full justify-evenly mx-auto items-center z-0'
-    >
+      className='h-screen relative flex flex-col md:flex-row text-left overflow-hidden max-w-full justify-evenly mx-auto items-center z-0'>
       <h1 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl sm:text-2xl '>
         Projects
       </h1>
 
-      <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-10'>
+      <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-10 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#d42d2d]/80'>
         {projects.map((project, i) => (
-          <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-32 h-screen'>
+          <div
+            key={"projects_" + i.toString()}
+            className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-32'>
             <motion.img
-             initial={{
-              y: -100,
-              opacity: 0
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0
-            }}
-            transition={{
-              duration: 1,
-            }}
-            viewport={{once:true}}
+              initial={{
+                y: -100,
+                opacity: 0,
+              }}
+              whileInView={{
+                opacity: 1,
+                y: 0,
+              }}
+              transition={{
+                duration: 1,
+              }}
+              viewport={{ once: true }}
               src='http://clipart-library.com/images_k/laptop-transparent-png/laptop-transparent-png-10.jpg'
               alt=''
             />

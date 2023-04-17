@@ -4,6 +4,12 @@ import { motion } from "framer-motion";
 
 type Props = {};
 
+const handleClickNav = () => {
+  document.getElementById("contact")?.scrollIntoView({
+    behavior: "smooth",
+  });
+};
+
 export default function Header({}: Props) {
   return (
     <header className='sticky top-0 flex items-start justify-between max-w-7xl mx-auto z-30 xl:items-center p-5'>
@@ -49,7 +55,8 @@ export default function Header({}: Props) {
         transition={{
           duration: 1.5,
         }}
-        className='flex  flex-row items-center text-gray-300 cursor-pointer'>
+        className='flex  flex-row items-center text-gray-300 cursor-pointer'
+        onClick={handleClickNav}>
         <SocialIcon
           className='cursor-pointer'
           network='email'

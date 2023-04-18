@@ -2,6 +2,8 @@ import React from "react";
 import Skill from "./Skill";
 import { motion } from "framer-motion";
 import AwsCertificationBadge from "./CertificationBadge";
+import { rearrangedTechnicalSkills } from "../resources/skillSources";
+import _ from "lodash";
 
 function Skills() {
   return (
@@ -24,7 +26,17 @@ function Skills() {
       </h3>
 
       <div className='grid grid-cols-4 gap-10'>
-        <Skill directionLeft />
+        {_.map(rearrangedTechnicalSkills, (value, key) => {
+          return (
+            <Skill
+              skillLogo={value.skillLogo}
+              skillName={value.skill}
+              skillLevel={value.skillLevel}
+              key={"logo_" + key}
+            />
+          );
+        })}
+        {/* <Skill directionLeft />
         <Skill directionLeft />
         <Skill directionLeft />
         <Skill directionLeft />
@@ -35,7 +47,7 @@ function Skills() {
         <Skill />
         <Skill />
         <Skill />
-        <Skill />
+        <Skill /> */}
         {/* <AwsCertificationBadge/> */}
       </div>
     </motion.div>
